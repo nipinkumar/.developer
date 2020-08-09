@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            margin: 0px;
+        }
+
+        .main {
+            width: 100%;
+            background: url(intro-bg.jpg) center top no-repeat;
+            background-size: cover;
+        }
+
+        .head {
+            float: right;
+        }
+
+        .head li {
+            width: 30px;
+            margin: 0px 10px;
+        }
+
+        .head img {
+            width: 20px;
+        }
+
+        .head ul {
+            display: flex;
+            list-style-type: none;
+            padding-right: 120px;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-around;
+            padding-top: 50px;
+            padding-bottom: 50px;
+            position: relative;
+        }
+
+        .text {
+            position: absolute;
+            left: 280px;
+            color: #535074;
+        }
+
+        .nav {
+            position: absolute;
+            right: -250px;
+        }
+
+
+        .header ul.topnav {
+            display: flex;
+            list-style-type: none;
+        }
+
+        .About {
+            display: flex;
+            justify-content: space-around;
+            padding: 100px 10px;
+        }
+
+        .info {
+            width: 50%;
+            float: left;
+            text-align: center;
+        }
+
+        .img {
+            width: 50%;
+            float: left;
+        }
+
+        .img1 {
+            background: rgb(147, 60, 155);
+            margin: 20px;
+            padding: 15px 30px 10px 10px;
+        }
+
+        .img1 img {
+            box-shadow: 0px 1px 3px 3px;
+            margin-left: 20px;
+            margin-top: 13px;
+            border: 10px solid #fff;
+        }
+
+        .button {
+            background-color: #1bb1dc;
+            border: none;
+            color: white;
+            padding: 15px 32px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .info h1 {
+            color: #413e66;
+            margin-bottom: 40px;
+            font-size: 48px;
+            font-weight: bolder;
+            font-family: sans-serif;
+            text-align: initial;
+            padding-left: 150px;
+        }
+
+        .section {
+            display: flex;
+            margin: 30px 130px 50px 130px;
+        }
+
+        .section ul img {
+            width: 25px;
+        }
+
+        .text1 li {
+            margin: 10px;
+            font-family: sans-serif;
+        }
+
+        .img img {
+            width: 80%;
+        }
+
+        .section li {
+            list-style-type: none;
+        }
+
+        .text1 {
+
+            padding-left: 50px;
+            margin-left: 40px;
+        }
+
+        .text1 p {
+            margin-bottom: 25px;
+        }
+
+        .A {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .B {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .box {
+            padding: 30px;
+            border-radius: 10px;
+            margin: 0 10px 60px 51px;
+            background: #fff;
+            text-align: center;
+        }
+
+        .HOVER {
+            padding: 60px 130px 0px 130px;
+        }
+
+        .box:hover {
+            transform: scale(1.1);
+
+        }
+
+        .box p {
+            font-family: sans-serif;
+            font-size: 15px;
+        }
+
+        .box h2 {
+            font-family: sans-serif;
+        }
+
+        .icon {
+            margin: 0 auto 15px auto;
+            padding-top: 12px;
+            display: inline-block;
+            text-align: center;
+            border-radius: 50%;
+            width: 60px;
+            height: 40px;
+        }
+
+        .Services {
+
+            padding: 20px 0px 20px 0px;
+        }
+
+        .footer .Services h1 {
+            font-size: 45px;
+            color: #413e66;
+            text-align: center;
+            font-weight: bolder;
+            font-family: sans-serif;
+        }
+
+        .text {
+            position: absolute;
+            left: 250px;
+            font-family: sans-serif;
+            color: #535074;
+            text-transform: uppercase;
+
+        }
+
+        .text h1 {
+            margin: 10px;
+        }
+
+        .footer .Services p {
+            text-align: center;
+            margin: auto;
+            font-size: 21px;
+            color: #535074;
+            width: 50%;
+        }
+
+        .img1 img {
+            box-shadow: 20px 20px 20px 20px darkgrey;
+
+        }
+
+        .dropbtn {
+            color: #514e7e;
+            padding: 16px;
+            font-size: 17px;
+            border: none;
+            cursor: pointer;
+            text-transform: uppercase;
+        }
+
+        .nav li {
+            margin: 0px 10px;
+        }
+
+        .nav a {
+            text-decoration: none;
+        }
+
+        .img1 img:hover {
+            transform: scale(1.03);
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            
+        }
+
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: #f1f1f1
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: #1bb1dc;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="head">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="./twitter.png" alt="twitter" width="50px">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./Facebook_f_logo_(2019).svg" alt="facebook" width="50px">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./square-linkedin-512.png" alt="linkedin" width="50px">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="./1_dgCLuWhdQQ1H_h-gHcVPFQ.jpeg" alt="instagram" width="50px">
+                    </a>
+                </li>
+            </ul>
+
+        </div>
+        <div class="header">
+            <div class="text">
+                <h1>Rapid</h1>
+
+            </div>
+            <div class="nav">
+                <ul class="topnav">
+                    <li><a class="active" href="https://bootstrapmade.com/demo/themes/Rapid/">HOME</a></li>
+                    <li><a href="https://bootstrapmade.com/demo/themes/Rapid/">ABOUT US</a></li>
+                    <li><a href="https://bootstrapmade.com/demo/themes/Rapid/">SERVICES</a></li>
+                    <li><a href="https://bootstrapmade.com/demo/themes/Rapid/">PORTFOLIO</a></li>
+                    <li><a href="https://bootstrapmade.com/demo/themes/Rapid/">TEAM</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <a class="dropbtn">Dropdown</a>
+                            <div class="dropdown-content">
+                                <a href="#">Drop Down 1</a>
+                                <a href="#">Drop Down 2</a>
+                                <a href="#">Drop Down 3</a>
+                                <a href="#">Drop Down 4</a>
+                                <a href="#">Drop Down 5</a>
+                            </div>
+                        </div>
+
+                    </li>
+
+                    <li><a href="https://bootstrapmade.com/demo/themes/Rapid/">CONTACT US</a></li>
+                </ul>
+
+            </div>
+
+        </div>
+        <div class="About">
+            <div class="info">
+                <h1>
+                    Rapid Solutions
+                    <br>
+                    for Your <span style="color: #1bb1dc;">Business!</span>
+                </h1>
+
+                <a href="https://bootstrapmade.com/demo/themes/Rapid/" class="button">GET STARTED</a>
+
+
+            </div>
+            <div class="img">
+                <img src="./intro-img.svg" alt="intro">
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="section">
+        <div class="img1">
+            <img src="./about-img.jpg" alt="about">
+
+        </div>
+        <div class="text1">
+            <h1 style="font-family: sans-serif;font-size: 40px;color: #68426f;">About Us</h1>
+            <p style="font-family: sans-serif;font-size: 26px;color: #68426f;">Odio sed id eos et laboriosam consequatur
+                eos earum soluta.</p>
+            <p style="font-family: sans-serif">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                tempor incididunt ut labore et
+                dolore magna aliqua.</p>
+            <p style="font-family: sans-serif">Aut dolor id. Sint aliquam consequatur ex ex labore. Et quis qui dolor
+                nulla dolores neque. Aspernatur
+                consectetur omnis numquam quaerat. Sed fugiat nisi. Officiis veniam molestiae. Et vel ut quidem alias
+                veritatis repudiandae ut fugit. Est ut eligendi aspernatur nulla voluptates veniam iusto vel quisquam.
+                Fugit ut maxime incidunt accusantium totam repellendus eum error. Et repudiandae eum iste qui et ut ab
+                alias.</p>
+            <ul>
+                <li><img src="./checkmark.png" alt="checkmark">Ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.
+                </li>
+                <li><img src="./checkmark.png" alt="checkmark">Duis aute irure dolor in reprehenderit
+                    in voluptate
+                    velit.</li>
+                <li><img src="./checkmark.png" alt="checkmark">Ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.
+                    Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat
+                    nulla pariatur.</li>
+            </ul>
+
+        </div>
+
+    </div>
+    <div class="footer" style="background: #f5f8fd;">
+        <div class="Services">
+            <h1>Services</h1>
+            <p>Laudem latine persequeris id sed, ex fabulas delectus quo. No vel partiendo abhorreant vituperatoribus.
+            </p>
+        </div>
+        <div class="HOVER">
+            <div class="A">
+                <div class="box">
+                    <div class="icon" style="background: #fceef3;">
+                        <img src="./analytics-512.png" alt="outline">
+                    </div>
+                    <h2>Lorem Ipsum</h2>
+                    <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati
+                        cupiditate
+                        non
+                        provident</p>
+
+                </div>
+                <div class="box">
+                    <div class="icon" style="background: #fff0da;">
+                        <img src="./682169_logo_512x512.png" alt="logo">
+                    </div>
+                    <h2>Dolor Sitema</h2>
+                    <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+                        tarad
+                        limino ata</p>
+
+                </div>
+                <div class="box">
+                    <div class="icon" style="background: #e6fdfc;">
+                        <img src="./Paper-outline-icon-by-Muhazdinata-580x386.jpg" alt="paper">
+                    </div>
+                    <h2>Sed ut perspiciatis</h2>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur
+                    </p>
+
+                </div>
+            </div>
+            <div class="B">
+                <div class="box">
+                    <div class="icon" style="background: #eafde7;">
+                        <img src="./111612352-speedometer-vector-icon-isolated-on-transparent-background-speedometer-transparency-logo-concept.jpg"
+                            alt="speedometer"></div>
+                    <h2>Magni Dolores</h2>
+                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id
+                        est
+                        laborum</p>
+
+                </div>
+                <div class="box">
+                    <div class="icon" style="background: #e1eeff;">
+                        <img src="./internet-512.png" alt="internet">
+                    </div>
+                    <h2>Nemo Enim</h2>
+                    <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum
+                        deleniti
+                        atque</p>
+
+                </div>
+                <div class="box">
+                    <div class="icon" style="background: #ecebff;">
+                        <img src="./pngtree-vector-clock-icon-png-image_313133.jpg" alt="clock">
+                    </div>
+                    <h2>Eiusmod Tempor</h2>
+                    <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis
+                        est
+                        eligendi</p>
+
+                </div>
+            </div>
+        </div>
+
+
+    </div>
+</body>
+
+</html>

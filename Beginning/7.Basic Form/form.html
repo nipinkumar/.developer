@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        .a {
+            display: flex;
+            padding: 5px;
+        }
+
+        .aa {
+            width: 49%;
+            justify-content: left
+        }
+
+        .ab {
+            width: 50%;
+            margin-left: 28px;
+            
+        }
+
+        .d {
+            width: auto;
+            padding: 5px;
+            text-align: center;
+
+        }
+
+        .d input[type="button"] {
+            background-color:orangered;
+            color: #fff;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            height: 50%;
+            margin: 1px;
+            padding: 2px 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <title>Form</title>
+    <h1 style="color: turquoise">Add Medicine</h1>
+
+    <form action="/action_page.php">
+        <div class="a">
+            <div class="aa">
+                <label>Name</label> 
+                <input type="text" id="name"  name="entername" placeholder="Enter Name">
+            </div>
+            <div class="ab">
+                <label>Price</label> 
+                <input type="text" id="name"  name="enterprice" placeholder="Enter Price">
+            </div>
+        </div>
+        <div class="a">
+            <div class="aa">
+                <label>Code</label> 
+                <input type="text" id="name" name="entercode" placeholder="Enter Code">
+            </div>
+            <div class="ab">
+                <label>Quantity</label> 
+                <input type="text" id="name" name="enterquantity" placeholder="Enter Quantity">
+            </div>
+        </div>
+        <div class="a">
+            <div class="aa">
+                <label>Brand</label> 
+                <input type="text" id="name" name="enterbrand" placeholder="Enter Brand">
+            </div>
+            <div class="ab">
+                <label>Suffix</label> 
+                <input type="text" id="name" name="enterinput" placeholder="Enter Suffix">
+            </div>
+        </div>
+        <div class="a">
+        <div class="aa">
+            <label>Unit</label> 
+            <input type="text" id="name" name="enterunit" placeholder="Enter Unit">
+        </div>
+        <div class="ab">
+               
+            </div>
+        </div>
+        <br>
+        <div class="d">
+            <input type="button" value="SUBMIT">
+        </div>
+    </form>
+
+</body>
+
+</html>
