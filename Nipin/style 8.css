@@ -1,0 +1,54 @@
+
+
+.flexbox{
+    background-color: aqua;
+    width:80%;
+    height: auto;
+    padding: 8%;
+    margin-left: 26px;
+    border: 2px solid black;
+}
+.border{
+    border: 2px solid black;
+    width:100%;
+    height: auto;
+    margin: auto;
+    background-color: hsl(39, 80%, 57%);
+}
+.box{
+    background-color: #5de93a;
+    display: inline-flex;
+    width: 213px;
+    height: 28px;
+    margin: 11px;
+    margin-left: 14px;
+    flex: auto;
+    padding: 21px;
+    border: 1px Solid blue;
+    text-align: center;
+
+}
+.box:hover{
+    background-color: aqua;
+}
+
+.circle{
+    background-color: #5de93a;
+    display: inline-flex;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    flex: auto;
+    padding: 36px;
+    border-radius: 50%;
+    text-align: left;
+    border: 1px Solid black;
+}
+.table{
+display: table;
+border-collapse: separate;
+box-sizing: border-box;
+border-spacing: 2px;
+border-color: grey;
+    
+}
