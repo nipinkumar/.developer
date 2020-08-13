@@ -17,7 +17,7 @@
 }
 .box{
     background-color: #5de93a;
-    display: inline-flex;
+    display: inline-block;
     width: 213px;
     height: 28px;
     margin: 11px;
@@ -25,7 +25,7 @@
     flex: auto;
     padding: 21px;
     border: 1px Solid blue;
-    text-align: center;
+    text-align: right;
 
 }
 .box:hover{
@@ -34,21 +34,36 @@
 
 .circle{
     background-color: #5de93a;
-    display: inline-flex;
+    display: inline-block;
     width: 150px;
     height: 150px;
     margin: 5px;
-    flex: auto;
+    
     padding: 36px;
     border-radius: 50%;
-    text-align: left;
-    border: 1px Solid black;
-}
-.table{
-display: table;
-border-collapse: separate;
-box-sizing: border-box;
-border-spacing: 2px;
-border-color: grey;
+    text-align: right;
     
+}
+table{
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 34%;
+    padding: 30px;
+    position: absolute;
+    left: 55%;
+    top: 66%;
+}
+
+td, th{
+    border: 2px solid black;
+    padding: 12px;
+    margin: 1px;
+    width: 20px;
+
+}
+td:hover {
+    background-color: aqua;
+}
+th:hover {
+    background-color: aqua;
 }

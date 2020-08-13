@@ -90,6 +90,7 @@ hr{
     margin: 20px;
     list-style: none;
     font-size: 14px;
+    cursor: pointer;
 }
 .heading4 ul li:hover{
     background: rgb(174, 39, 207);
@@ -100,7 +101,7 @@ hr{
     height: 500px;
 }
 
-.heading6{
+.heading5-1{
 
     padding: 0px;
     width: 463px;
@@ -108,13 +109,13 @@ hr{
     top: 33%;
     margin-left: 10%;
 }
-.heading6 h2{
+.heading5-1 h2{
     background-color: green;
     font-weight: 200;
     font-family:cursive
     
 }
-.heading6 h4{
+.heading5-1 h4{
     font-weight: 200;
     font-family:cursive;
     text-align: center;
@@ -122,35 +123,84 @@ hr{
     margin-top: -12px;
     
 }
-.heading7 ul{
-    
-    margin-left: 132%;
-    width: 108%;
+.heading5-2 {
+    margin:4px 0px 0px 122%;
+    width: 104%;
     background-color: white;
     color: black;
-    padding: 7px;
+    padding: 39px;
     position: absolute;
-    top: -37%;
+    top: -68%;
 
 }
 
-
-.heading7 ul h4{
+.heading5-2 span{
     color:green;
+    text-align: center;
+    font-weight: bold;
+    font-family: cursive;
+    margin left: 100%;
+    position: absolute;
+    left: 29%;
+    font-size:21px;
+    
 
 }
 
-.heading7 ul label{
-    color: rgb(112, 107, 107);
-    border: 1px solid black;
-    margin: 10px;
-    padding: 10px;
+.heading5-2 .input-container {
+    display: inline-flex;
+    width: 41%;
+    margin-bottom: 15px;
+    border: 1px solid #999;
+    margin:20px 9px -3px 12px;
+    padding: 7px;
+    
+    
     
 }
-.heading7 ul label input{
-    padding: 20px;
-    border: 0px solid white;
+    
+.heading5-2 i{
+
+    padding: 7px;
+    
+    color: #d48888;
+    min-width: 23px;
+    text-align: center;
+    font-size: 19px;
+    font-weight: bold;
+    
+    
 }
+
+.heading5-2 input{
+    width: 100%;
+    
+    
+    outline: none;
+    border: none;
+    padding: 9px 13px 7px 1px;
+    color: #999;
+}
+.input-container2{
+    
+    width: 437px;
+    margin-bottom: 15px;
+    border: 1px solid #999;
+    margin:20px 9px -3px 12px;
+    padding: 7px;
+    display: inline-flex;
+}
+ .btn{
+    background-color: dodgerblue;
+    opacity: 0.9;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 95%;
+    margin: 24px 0px -7px 12px;
+ }
+
 
 
 

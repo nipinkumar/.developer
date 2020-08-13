@@ -1,0 +1,33 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="album.css">
+</head>
+<body>
+    <div class="Accordion">
+        <div class="heading">Section 1</div>
+        <div class="Contain">hello Section 1</div>
+
+        <script>
+            var acc = document.getElementsByClassName("heading");
+            var i;
+    
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var Contain = this.nextElementSibling;
+                    if (Contain.style.display === "block") {
+                        Contain.style.display = "none";
+                    } else {
+                        Contain.style.display = "block";
+                    }
+                });
+            }
+        </script>
+</body>
+</html>
