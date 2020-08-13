@@ -1,0 +1,161 @@
+
+body{
+    margin: 0px;
+    background: linear-gradient(to bottom left, #ffffff -50%, black 80%);
+    background-repeat: repeat-x;
+    color: #ffffff;
+    font-family:sans-serif;
+}
+
+.heading1{
+    
+}
+.heading1 ul{
+    display: flex;
+    width: 37%;
+    margin-left: 161px;
+    padding: 0px;
+    
+    
+}
+.heading1 ul li{
+    width: 24%;
+    margin: 3px;
+    padding: 4px;
+    list-style: none;
+    color: #ffffff;
+    display: inline-block;
+    font-size: 14px;
+}
+.heading2 span {
+    color: hsl(27, 92%, 55%);
+    width: 80%;
+    padding: 0px;
+    margin-left: 36%;
+    top: 23px;
+    position: absolute;
+    font-size: 14px;
+    font-weight: bold;
+}
+.heading2 span marquee {
+    font-size: 14px;
+    top: 0px;
+    position: absolute;
+    color: #ffffff;
+}
+
+.heading3{
+ 
+    
+}
+.heading3 ul{
+    
+    display: flex;
+    list-style: none;
+    margin-left: 86%;
+    position: absolute;
+    top: -9px
+}
+.heading3 ul li {
+    
+    margin: 4px;
+    padding: 6px;
+    font-size: 21px;
+    color: #ffffff;
+    list-style: none; 
+}
+
+.heading3 ul li:hover{
+    color: aqua;
+    
+}
+hr{
+    border: 1px dashed white;
+}
+
+.heading4 h1{
+
+    margin-left: 14%;
+    font-weight:200;
+    
+}
+.heading4 ul{
+    display: flex;
+    margin-left: 42%;
+    position: absolute;
+    top: 63px;
+
+}
+.heading4 ul li{
+    margin: 20px;
+    list-style: none;
+    font-size: 14px;
+}
+.heading4 ul li:hover{
+    background: rgb(174, 39, 207);
+}
+
+.heading5 img{
+    width: 100%;
+    height: 500px;
+}
+
+.heading6{
+
+    padding: 0px;
+    width: 463px;
+    position: absolute;
+    top: 33%;
+    margin-left: 10%;
+}
+.heading6 h2{
+    background-color: green;
+    font-weight: 200;
+    font-family:cursive
+    
+}
+.heading6 h4{
+    font-weight: 200;
+    font-family:cursive;
+    text-align: center;
+    width: 289px;
+    margin-top: -12px;
+    
+}
+.heading7 ul{
+    
+    margin-left: 132%;
+    width: 108%;
+    background-color: white;
+    color: black;
+    padding: 7px;
+    position: absolute;
+    top: -37%;
+
+}
+
+
+.heading7 ul h4{
+    color:green;
+
+}
+
+.heading7 ul label{
+    color: rgb(112, 107, 107);
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    
+}
+.heading7 ul label input{
+    padding: 20px;
+    border: 0px solid white;
+}
+
+
+
+
+
+
+
+/+ http://www.registrationofproperty.com/
