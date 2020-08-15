@@ -9,25 +9,86 @@
     <link rel="stylesheet" href="album.css">
 </head>
 <body>
-    <div class="Accordion">
-        <div class="heading">Section 1</div>
-        <div class="Contain">hello Section 1</div>
+    <div class="labelarea"> 
+        <label for="toggle">Click here
+            <span></span>
+            <span></span>
+            <span></span>
 
-        <script>
-            var acc = document.getElementsByClassName("heading");
-            var i;
+        </label>
+
+        
+        
+    </div>
     
-            for (i = 0; i < acc.length; i++) {
-                acc[i].addEventListener("click", function () {
-                    this.classList.toggle("active");
-                    var Contain = this.nextElementSibling;
-                    if (Contain.style.display === "block") {
-                        Contain.style.display = "none";
-                    } else {
-                        Contain.style.display = "block";
-                    }
-                });
-            }
-        </script>
+    <input type="checkbox" id="toggle">
+    <div class="container">
+        <a href="Home">Home</a>
+        <a href="Srch">Search</a>
+        <a href="abt">About</a>
+        <a href="cnt">Contacts</a>
+        <a href="dep">department</a>
+
+    </div>
+
+
+    <div class="contain">
+            
+        <p>
+            Put life in perspective with some short yet sage pieces of advice. 
+            
+            These wise and beautiful words from your favorite positive thinkers will get you in the right 
+            mindset to tackle whatever obstacles lie ahead. Inspirational quotes from successful people like Oprah, 
+            Helen Keller, and Maya Angelou can help you reframe negative thoughts during tough times and change 
+            your attitude so you feel refreshed and motivated. Whether you're hoping to achieve success at work, 
+            home, or life in general, establishing the right intentions can help you stay positive and optimistic 
+            during the challenges fate can throw your way.
+        </p>
+        <p>
+
+            If you're short on time, there's no need to dig through your favorite books for a little pick-me-up. 
+            These inspirational quotes for life and success will resonate (and fit on your Pinterest board). Authors, scientists, philosophers, and other famous celebrities have revealed the inner mantras that helped them achieve their goals, 
+            and these sayings could help you as well. Many focus on embracing what they can control and letting go of what they can't — a helpful approach when you're feeling anxious or overwhelmed. Others frame everything in terms of what they can give to others, 
+            which can put obstacles in perspective. Some people just try to celebrate the joys of life whenever they can — a reminder many of us could stand to hear more. No matter what you're feeling or experiencing, 
+            here's hoping these short inspirational quotes can help you get where you want to go
+        </p>
+        <p>
+            If you're short on time, there's no need to dig through your favorite books for a little pick-me-up. 
+            These inspirational quotes for life and success will resonate (and fit on your Pinterest board). Authors, scientists, philosophers, and other famous celebrities have revealed the inner mantras that helped them achieve their goals, 
+            and these sayings could help you as well. Many focus on embracing what they can control and letting go of what they can't — a helpful approach when you're feeling anxious or overwhelmed. Others frame everything in terms of what they can give to others, 
+            which can put obstacles in perspective. Some people just try to celebrate the joys of life whenever they can — a reminder many of us could stand to hear more. No matter what you're feeling or experiencing, 
+            here's hoping these short inspirational quotes can help you get where you want to go
+        </p>
+        <p>
+            There's no relationship quite like the one between a father and a son. On Father’s Day, 
+            let your superhero know how much he means to you with a Father's Day quote specifically about your 
+            amazing bond. Whether you look up to the man that raised you, or you've become a father yourself and are 
+            just now realizing the sacrifices he's made for you through the years, you'll be able to relate to these father-son quotes.
+
+            So if you haven't written your Father's Day card yet, save a quote or two from this list. Sometimes it takes 
+            people like James Baldwin, Michael Jordan, and even Brad Pitt to put into words how special the relationship between a father and a son really is. Make this June 21 one for the books with a thoughtful Father's Day gift, too!
+        </p>
+   
+
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+          </label>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+          </label>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+          </label>
+          <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+          </label>
+          
+
+
+    </div>
 </body>
 </html>
