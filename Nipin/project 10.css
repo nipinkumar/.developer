@@ -43,6 +43,7 @@ body
     font-weight: bold;
     margin: 10px;
     width: 500px;
+    cursor: pointer;
     
 
 }
@@ -77,6 +78,7 @@ body
     margin: 2px;
     padding: 3px;
     width: 15px;
+   
 }
 
 .tabbar:hover .tabcontaint {
@@ -132,6 +134,9 @@ body
     
     margin: 0px 146px 0px 141px;
 }
+.img1 img:hover {
+    transform: scale(1.03);
+}
 
 .text1{
     text-align: justify;
@@ -150,6 +155,8 @@ body
 }
 .last-section{
     background-color: #f5f8fd;
+    margin-top: 29px;
+    margin-bottom: 0%;
 }
 
 .last-section .services-heading{
@@ -167,6 +174,65 @@ body
     color: #535074;
     text-align: center;
 
+}
+.content{
+    margin: 51px auto ;
+    width: 90%;
+    height: auto;
+}
+.flex-ul{
+    width: 1203px;
+    height: auto;
+    margin: 10px;
+    flex-wrap: wrap;
+    display: inline-flex;
+    justify-content: flex-start; 
+}
+.flex-ul li{
+    align-items: center;
+    background-color: white;
+    width: 330px;
+    height: 249px;
+    margin: 26px;
+    padding: 4px;
+    list-style: none;
+    position: relative;
+    left: 31px;
+    border-radius: 15px;
+   
+}
+.imagetry{
+    width: 330px;
+    height: 249px;
+    margin-top: -213px;
+    border-radius: 14px;
+    display: none;
+}
+.flex-ul li:hover .imagetry {
+    display: block;
+    transition-duration: -9s;
+}
+
+.box-text{
+    text-align: center;
+    font-family: sans-serif;
+}
+.box-icon{
+    background-color: bisque;
+    text-align: center;
+    width: 67px;
+    height: 38px;
+    border-radius: 50%;
+    padding-top: 12px;
+    margin: 26px 11px 5px 136px;
+    display: inline-block;
+}
+.HOVER {
+    padding: 60px 130px 0px 130px;
+}
+
+.flex-ul li:hover {
+    transform: scale(1.1);
 }
 
 
