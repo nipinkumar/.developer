@@ -9,25 +9,23 @@
     <link rel="stylesheet" href="album.css">
 </head>
 <body>
-    <div class="Accordion">
-        <div class="heading">Section 1</div>
-        <div class="Contain">hello Section 1</div>
-
-        <script>
-            var acc = document.getElementsByClassName("heading");
-            var i;
+    <Div class="toggle-button">
+        <button class="dropbtn">Click here</button>
+        
     
-            for (i = 0; i < acc.length; i++) {
-                acc[i].addEventListener("click", function () {
-                    this.classList.toggle("active");
-                    var Contain = this.nextElementSibling;
-                    if (Contain.style.display === "block") {
-                        Contain.style.display = "none";
-                    } else {
-                        Contain.style.display = "block";
-                    }
-                });
-            }
-        </script>
+     <div class="menubar">
+         <a href="Home">Home</a>
+         <a href="Contact">Contact</a>
+         <a href="News">News</a>
+         <a href="About">About</a>
+         <a href="careers">Careers</a>
+         <a href="Department">Department</a>
+
+         
+
+     </div>
+     </div>
+
+
 </body>
 </html>
