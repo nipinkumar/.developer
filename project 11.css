@@ -1,0 +1,106 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+    background-repeat: no-repeat;
+}
+
+/* for Pane*/
+
+.main{
+    background: linear-gradient(to bottom left, #e09090 -20%, #5fd0e4 110%);
+    margin: 0px 0px;
+    padding: 0;
+}
+.header{
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+    margin-right: 97px;
+    
+
+}
+.header span{
+    
+    cursor: pointer;
+    color: cornsilk;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 31px 6px 28px 34px;
+}
+
+
+
+.heading h1{
+    margin: -15px 0px 0px 124px;
+    font-size: 55px;
+    font-family: cursive;
+    font-weight: bold;
+    color: #e01a1a;
+}
+.heading1 h1{
+    text-align: center;
+    color: hsl(27, 97%, 58%);
+
+}
+.heading1 p {
+    text-align: center;
+    color: hsl(61, 79%, 49%);
+    margin: 0px 240px;
+    font-size: 19px;
+
+}
+
+
+.box-flex{
+    display: inline-flex;
+    margin-top: 28px;
+    margin-left: 125px;
+    
+}
+
+.box-flex :hover{
+    background-color: #5fd0e4;
+    transform: scale(1.03);
+}
+
+.box-flex span{
+    height: 272px;
+    width: 272px;
+   
+    margin: 25px 17px 0px 7px;
+    
+}
+
+
+
+.box-flex span img{
+    border: 2px solid red;
+    background-color: #FFFFFF;
+    border-radius: 13%;
+    padding: 5px;
+    height: 106px;
+    width: 159px;
+    align-items: center;
+    position: relative;
+    top: 11px;
+    left: 55px;
+}
+
+.box-flex span h2{
+    text-align: center;
+}
+
+.box-flex span p{ 
+    margin: 29px 0px 0px 0px;
+    text-align: center;
+}
+button{
+    height: 36px;
+    width: 105px;
+    background-color: #4edd22;
+    position: relative;
+    left: -208px;
+    top: 305px;
+}
