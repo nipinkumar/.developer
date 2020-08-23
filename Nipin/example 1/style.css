@@ -13,7 +13,7 @@ body{
 
 header{
     background-color: #6c757d;
-    padding: 10px 10px;
+    padding: 0px;
     display: flex;
     box-sizing: border-box;
     
@@ -32,6 +32,7 @@ header ul{
 header ul a{
     text-decoration: none;
     color: azure;
+    padding: 5px;
 }
 header h2{
     margin: 0%;
@@ -48,11 +49,24 @@ nav{
 nav ul{
     display: flex;
     padding: 0;
+    margin: 0px;
+    
 }
 
 nav ul li{
-    margin: 10px;
+    padding:  15px;
+    
 }
+
+nav li:hover{
+    background-color:white;
+    color: gray;
+}
+
+nav li a:hover{
+    color:gray;
+}
+
 .title{
     margin: 0% auto;
 }
@@ -170,8 +184,41 @@ nav ul li{
 }
 
 
+footer{
+    background-color: #6c757d;
+    width: 100%;
+    padding: 0;
+    
+    
+}
+.footer-container{
+    margin: 0px;
+    padding: 0;
+}
 
+.footer-container ul{
+    display: flex;
+    margin: 7px 0px;
+    flex-wrap: wrap;
+    margin-left: 8%;
 
+}
+
+.footer-container ul li{
+    list-style: none;
+    margin: 8px 17px;
+}
+.footer-container ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.copyright{
+    margin-left: 10px;
+    margin-top: -10px;
+
+}
 @media only screen and (max-width:670px)
 {
     header{
@@ -186,8 +233,22 @@ nav ul li{
         margin: 0px auto;
 
     }
+
+    nav ul{
+
+    }
     .title{
         order: -1;
     }
 
+    .footer-container ul{
+        margin: 0px auto;
+    }
+}
+
+@media only screen and (max-width:780px)
+{
+    .footer-container li{
+        margin: 0px auto;
+    }
 }
