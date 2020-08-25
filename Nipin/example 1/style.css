@@ -16,6 +16,7 @@ header{
     padding: 0px;
     display: flex;
     box-sizing: border-box;
+    align-content: center;
     
     
 }
@@ -32,11 +33,12 @@ header ul{
 header ul a{
     text-decoration: none;
     color: azure;
-    padding: 5px;
+    padding: 0px;
 }
 header h2{
     margin: 0%;
     padding: 0;
+    
 }
 
 
@@ -49,12 +51,14 @@ nav{
 nav ul{
     display: flex;
     padding: 0;
-    margin: 0px;
+    align-items: center;
+    margin-left: 23px;
     
 }
 
 nav ul li{
-    padding:  15px;
+    padding:  0px;
+    margin: 0px;
     
 }
 
@@ -63,15 +67,26 @@ nav li:hover{
     color: gray;
 }
 
+nav ul li a{
+    color: aqua;
+    padding: 10px;
+    display: block;
+
+}
 nav li a:hover{
-    color:gray;
+    color:rgb(95, 90, 90);
 }
 
 .title{
     margin: 0% auto;
+    display: flex;
+    align-items: center;
+    
 }
 
 .social-icon{
+    display: block;
+    align-items: center;
 
 }
 
