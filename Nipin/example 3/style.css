@@ -10,6 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: black;
+
 }
 .container{
     display: flex;
@@ -27,13 +28,14 @@ body{
     border-radius: 8px;
     position: relative;
     background-color: beige;
-    margin: 98px 20px;
     padding: 20px;
     height: 196px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     box-shadow: 0.5px 100px black;
     transition: 0.7s ease-in-out;
+    margin: 43px 20px 43px 20px;
 }
 
 .card:hover{
