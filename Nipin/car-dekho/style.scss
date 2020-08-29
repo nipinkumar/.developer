@@ -1,8 +1,12 @@
-*{
+@import 'header';
+@import 'banner';
+
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: roboto,sans-serif,arial;
+    font-family: roboto, sans-serif, arial;
     list-style: none;
     text-decoration: none;
     flex-wrap: wrap;
@@ -11,12 +15,11 @@
 
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
+
 }
-
-

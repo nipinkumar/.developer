@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .select-mode{
+    margin-bottom: 20px;
+    
+    
+    
+}
+     .select-car-model {
+                    background-color: white;
+                    color: #444;
+                    padding: 18px;
+                    width: 310px;
+                    border: 1px solid gray;
+                    outline: none;
+                    font-size: 15px;
+                    transition: 0.4s;
+                    border-radius:2px;
+                    position: relative;
+                    display: flex;
+
+     }
+  
+                        .select-car-model:hover {
+                            background-color: #444;
+                            
+                        }
+
+                        .model-panel{
+                                        padding: 0px;
+                                        display: none;
+                                        position: fixed;
+                                        cursor: pointer;
+                                        width: 348px;
+                                        position: absolute;
+                                        top: 63px;
+                                        z-index: 1;
+                                        overflow: auto;
+                                        height: 166px;
+                                    }
+
+  
+                                    .panel {
+                                        padding: 0px;
+                                        display: none;
+                                        overflow: hidden;
+                                        cursor: pointer;
+                                        position: relative;
+                                        width: 348px;
+                                        position: absolute;
+                                        top: 106px;
+                                        z-index: 1;
+                                        overflow: auto;
+                                        height: 166px;
+                                    }
+                                                                    
+                                            option{
+                                                padding: 0px 18px;
+                                                position: relative;
+                                                cursor: pointer;
+                                                background-color:lightgray;
+                                                display: flex;
+                                                font-family: cursive;
+                                            }
+                                            
+                                                option:hover{
+                                                    background-color: black;
+                                                    color: white;
+                                                }
+                                            
+</style>
+<body>
+
+    <div class="select-mode">
+       
+        <input type="text" class="select-car-model" placeholder="Select model">
+        <div class="model-panel">
+
+
+            <option value="1">Audi</option>
+            <option value="2">BMW</option>
+            <option value="3">Citroen</option>
+            <option value="4">Ford</option>
+            <option value="5">Honda</option>
+            <option value="6">Jaguar</option>
+            <option value="7">Land Rover</option>
+            <option value="8">Mercedes</option>
+            <option value="9">Mini</option>
+            <option value="10">Nissan</option>
+            <option value="11">Toyota</option>
+            <option value="12">Volvo</option>
+
+        </div>
+
+        <input type="text" class="select-car-model" placeholder="Select brand">
+        <div class="panel">
+
+
+            <option value="1">hello</option>
+            <option value="2">BMW</option>
+            <option value="3">Citroen</option>
+            <option value="4">Ford</option>
+            <option value="5">Honda</option>
+            <option value="6">Jaguar</option>
+            <option value="7">Land Rover</option>
+            <option value="8">Mercedes</option>
+            <option value="9">Mini</option>
+            <option value="10">Nissan</option>
+            <option value="11">Toyota</option>
+            <option value="12">Volvo</option>
+
+        </div>
+
+
+        <script>
+            var acc = document.getElementsByClassName("select-car-model");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function () {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.display === "block") {
+                        panel.style.display = "none";
+                    } else {
+                        panel.style.display = "block";
+                    }
+
+                });
+            }
+        </script>
+
+    </div>
+    
+</body>
+</html>
