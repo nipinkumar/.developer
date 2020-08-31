@@ -185,7 +185,7 @@ border: 1px solid #8080804f;
     .car-dekho-homepage-container-category-car-box{
         box-sizing: border-box;
         display: inline-flex;
-        height: 350px;
+        height: 3500px;
         width: 100%;
     
 
@@ -201,10 +201,10 @@ border: 1px solid #8080804f;
 
         li{
            
-            width: 300px;
+            width: 280px;
             height: 342px;
             margin: 0px auto;
-            border-bottom: 1px solid #8080804f;
+            border: 1px solid #8080804f;
             
             
             img{
@@ -213,7 +213,7 @@ border: 1px solid #8080804f;
                 
             
             }
-        }
+        
 
                 p{
                     padding: 5px 0px;
@@ -267,13 +267,10 @@ border: 1px solid #8080804f;
                 }
         }
 
-    }
-}
-.view-all-car{
-position: relative;
+    
 
-a{
-    color: rgb(77, 173, 233);
+
+}
 }
 }
 }

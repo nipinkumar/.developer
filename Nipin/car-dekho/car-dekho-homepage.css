@@ -1,0 +1,187 @@
+.car-dekho-homepage {
+  margin: 20px 52px;
+  padding: 20px;
+  width: 100%;
+  height: 537px;
+  border: 1px solid #8080804f; }
+  .car-dekho-homepage .car-dekho-homepage-container-text {
+    width: 100%; }
+    .car-dekho-homepage .car-dekho-homepage-container-text h2 {
+      display: block;
+      padding-bottom: 20px; }
+    .car-dekho-homepage .car-dekho-homepage-container-text ul {
+      padding: 0px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      border-bottom: 1px solid #8080804f; }
+      .car-dekho-homepage .car-dekho-homepage-container-text ul li {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-right: 26px; }
+        .car-dekho-homepage .car-dekho-homepage-container-text ul li a {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+          flex-direction: row;
+          padding-right: 50px;
+          color: black;
+          padding-bottom: 20px; }
+          .car-dekho-homepage .car-dekho-homepage-container-text ul li a:hover {
+            border-bottom: 2px solid orangered; }
+  .car-dekho-homepage .car-dekho-homepage-container-category {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px 0px; }
+    .car-dekho-homepage .car-dekho-homepage-container-category .car-dekho-homepage-container-category-car-box {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      height: 350px;
+      width: 100%; }
+      .car-dekho-homepage .car-dekho-homepage-container-category .car-dekho-homepage-container-category-car-box ul {
+        padding: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        height: auto;
+        margin: 0px auto;
+        position: relative; }
+        .car-dekho-homepage .car-dekho-homepage-container-category .car-dekho-homepage-container-category-car-box ul li {
+          width: 300px;
+          height: 342px;
+          margin: 0px auto;
+          border-bottom: 1px solid #8080804f; }
+          .car-dekho-homepage .car-dekho-homepage-container-category .car-dekho-homepage-container-category-car-box ul li img {
+            width: 100%;
+            height: 194px; }
+        .car-dekho-homepage .car-dekho-homepage-container-category .car-dekho-homepage-container-category-car-box ul p {
+          padding: 5px 0px;
+          font-family: cursive;
+          margin: 0px 20px; }
+        .car-dekho-homepage .car-dekho-homepage-container-category .car-dekho-homepage-container-category-car-box ul span {
+          border: 1px solid orangered;
+          width: 230px;
+          display: block;
+          text-align: center;
+          font-size: 12px;
+          font-weight: bold;
+          color: orangered;
+          padding: 10px 0px;
+          margin: 0 auto;
+          margin-top: 10px; }
+  .car-dekho-homepage .view-all-car {
+    position: relative; }
+    .car-dekho-homepage .view-all-car a {
+      color: #4dade9; }
+
+.car-dekho-homepage-2 {
+  margin: 20px 52px;
+  padding: 20px;
+  width: 100%;
+  height: 537px;
+  border: 1px solid #8080804f; }
+  .car-dekho-homepage-2 .car-dekho-homepage-container-text {
+    width: 100%; }
+    .car-dekho-homepage-2 .car-dekho-homepage-container-text h2 {
+      display: block;
+      padding-bottom: 20px; }
+    .car-dekho-homepage-2 .car-dekho-homepage-container-text ul {
+      padding: 0px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      border-bottom: 1px solid #8080804f; }
+      .car-dekho-homepage-2 .car-dekho-homepage-container-text ul li {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        margin-right: 26px; }
+        .car-dekho-homepage-2 .car-dekho-homepage-container-text ul li a {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: horizontal;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+          flex-direction: row;
+          padding-right: 50px;
+          color: black;
+          padding-bottom: 20px; }
+          .car-dekho-homepage-2 .car-dekho-homepage-container-text ul li a:hover {
+            border-bottom: 2px solid orangered; }
+  .car-dekho-homepage-2 .car-dekho-homepage-container-category {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 20px 0px; }
+    .car-dekho-homepage-2 .car-dekho-homepage-container-category .car-dekho-homepage-container-category-car-box {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+      display: -webkit-inline-box;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      height: 3500px;
+      width: 100%; }
+      .car-dekho-homepage-2 .car-dekho-homepage-container-category .car-dekho-homepage-container-category-car-box ul {
+        padding: 10px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        width: 100%;
+        height: auto;
+        margin: 0px auto;
+        position: relative; }
+        .car-dekho-homepage-2 .car-dekho-homepage-container-category .car-dekho-homepage-container-category-car-box ul li {
+          width: 280px;
+          height: 342px;
+          margin: 0px auto;
+          border: 1px solid #8080804f; }
+          .car-dekho-homepage-2 .car-dekho-homepage-container-category .car-dekho-homepage-container-category-car-box ul li img {
+            width: 100%;
+            height: 194px; }
+          .car-dekho-homepage-2 .car-dekho-homepage-container-category .car-dekho-homepage-container-category-car-box ul li p {
+            padding: 5px 0px;
+            font-family: cursive;
+            margin: 0px 20px; }
+          .car-dekho-homepage-2 .car-dekho-homepage-container-category .car-dekho-homepage-container-category-car-box ul li small {
+            padding: 5px 0px;
+            font-family: cursive;
+            margin: 0px 20px;
+            color: #00000098; }
+          .car-dekho-homepage-2 .car-dekho-homepage-container-category .car-dekho-homepage-container-category-car-box ul li .used-availble-car {
+            padding: 20px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center; }
+            .car-dekho-homepage-2 .car-dekho-homepage-container-category .car-dekho-homepage-container-category-car-box ul li .used-availble-car h2 {
+              font-size: 33px; }
+            .car-dekho-homepage-2 .car-dekho-homepage-container-category .car-dekho-homepage-container-category-car-box ul li .used-availble-car p {
+              color: rgba(49, 47, 47, 0.445); }
+            .car-dekho-homepage-2 .car-dekho-homepage-container-category .car-dekho-homepage-container-category-car-box ul li .used-availble-car span {
+              height: 80px;
+              width: 80px;
+              background-color: orangered;
+              border-radius: 50%;
+              -webkit-box-shadow: #e05c2c 2px 2px;
+              box-shadow: #e05c2c 2px 2px; }
+              .car-dekho-homepage-2 .car-dekho-homepage-container-category .car-dekho-homepage-container-category-car-box ul li .used-availble-car span i {
+                text-align: center;
+                display: block;
+                margin: 24px auto; }
