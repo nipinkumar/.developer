@@ -4,7 +4,7 @@
     margin: 20px 52px;
     padding: 20px;
     width: 100%;
-    height: 537px;
+    height: auto;
     border: 1px solid #8080804f;
 
 
@@ -55,7 +55,7 @@
         .car-dekho-homepage-container-category-car-box{
             box-sizing: border-box;
             display: inline-flex;
-            height: 350px;
+            height: auto;
             width: 100%;
         
 
@@ -73,7 +73,7 @@
                
                 width: 300px;
                 height: 342px;
-                margin: 0px auto;
+                margin: 10px auto;
                 border-bottom: 1px solid #8080804f;
                 
                 
@@ -134,29 +134,32 @@
 margin: 20px 52px;
 padding: 20px;
 width: 100%;
-height: 537px;
+height: auto;
 border: 1px solid #8080804f;
+display: flex;
 
 
 .car-dekho-homepage-container-text{
-    width: 100%;
   
     h2{
-        display: block;
         padding-bottom: 20px;
         
     }
 
+
         ul{
             padding: 0px;
-            display: flex;
+            display: inline-flex;
             border-bottom: 1px solid #8080804f;
+            height: auto;
+            width: 100%;
             
         
 
         li{
             display: flex;
             margin-right: 26px;
+            
             
             a{
                 display: flex;
@@ -173,6 +176,7 @@ border: 1px solid #8080804f;
 
             }
             
+            
         }
     }
 }
@@ -184,27 +188,30 @@ border: 1px solid #8080804f;
 
     .car-dekho-homepage-container-category-car-box{
         box-sizing: border-box;
-        display: inline-flex;
-        height: 3500px;
-        width: 100%;
-    
-
+        display: flex;
+        height: auto;
+        margin: 0px auto;
+       
     ul{
-    padding: 10px;
+    padding-left: 10px;
     display: flex;
     width: 100%;
     height: auto;
     margin: 0px auto;
-    position: relative;;
+    position: relative;
+    
+    
     
     
 
         li{
            
-            width: 280px;
+            width: 300px;
             height: 342px;
-            margin: 0px auto;
+            margin: 0px 7px;
             border: 1px solid #8080804f;
+            display: flex;
+            
             
             
             img{
@@ -274,4 +281,464 @@ border: 1px solid #8080804f;
 }
 }
 }
-   
+
+
+.car-dekho-homepage-3{
+    margin: 20px 52px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #8080804f;
+    
+    
+         
+        .car-dekho-homepage-3-text{
+            width: 100%;
+            border-bottom: 1px solid #8080804f;
+            margin-bottom: 40px;
+            
+
+            h2{
+                padding-bottom: 10px;
+            }
+        }
+    
+    
+      
+        .car-dekho-homepage-3-box{
+            display: flex;
+            margin: 10px 0px;
+            align-content: center;
+            align-items: center;
+            
+            
+            
+            ul{
+
+                display: flex;
+                margin: 0px auto;
+                justify-content: center;
+
+                li{
+        
+                    border: 1px solid #8080804f;
+                    margin-right: 10px;
+                    margin-bottom: 15px;
+                    height: 150px;
+                    width: 200px;
+                    text-align: center;
+                    
+                    &:hover{
+                        transform: scale(1.1);
+                        transition: 1s;
+                    }
+
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+
+
+                    }
+                    
+                  
+                }
+
+            }
+
+            a{
+                cursor: pointer;
+                font-weight: 600;
+                color: #4624e0ab;
+                transition: 1s;
+                transition-property: all;
+                
+
+                &:hover{
+                    font-size: 15px;
+                    
+                    border-radius: 8px;
+                    color: white;
+                    padding: 10px;
+                    background-color: rgba(3, 3, 3, 0.651);
+                    
+                    
+                    
+
+                }
+
+            }
+
+  
+    }
+}
+
+
+
+.car-dekho-homepage-4{
+    margin: 20px 52px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #8080804f;
+
+    .car-dekho-homepage-4-text{
+        width: 100%;
+        border-bottom: 1px solid #8080804f;
+        margin-bottom: 40px;
+        
+
+        h2{
+            padding-bottom: 10px;
+        }
+    }
+
+    .car-dekho-homepage-4-box{
+       
+        margin: 10px 0px;
+        align-content: center;
+        align-items: center;
+        
+        
+        
+        ul{
+
+            
+            margin: 0px auto;
+            margin-bottom: 10px;
+            height: auto;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            
+
+            li{
+                border-bottom: 1px solid #8080804f;
+                height: 289px;
+                width: 390px;
+                display: inline-flex;
+                justify-content: center;
+                margin-right: 10px;
+                margin-bottom: 15px;
+
+
+                &:hover{
+                    border: 1px solid  #8080804f;
+                    
+                }
+                
+
+                .car-dekho-homepage-4-box-right{
+                    width: 50%;
+                    height: auto;
+
+                   
+                    img{
+                            width: 100%;
+                            height: 150px;
+                    }
+
+                    p{
+                        padding: 0px 15px;
+                    }
+
+                }
+
+                
+                .car-dekho-homepage-4-box-left{
+                     width: 50%;
+                   
+                    
+                    img{
+                            width: 100%;
+                            height: 150px;
+                    }
+                    p{
+                        text-align: end;
+                        padding: 0px 15px;
+                    }
+
+                
+
+                .tag{
+                    width: 36px;
+                    height: 36px;
+                    background: #24272c;
+                    border: 1px solid rgba(36,39,44,.15);
+                    font-weight: 500;
+                    text-align: center;
+                    line-height: 36px;
+                    color: #fff;
+                    -webkit-border-radius: 50%;
+                    border-radius: 50%;
+                    position: relative;
+                    right: -18px;
+                    top: 50%;
+                    margin-top: -18px;
+                    z-index: 1;
+                }
+            }
+                span{
+                    display:flex;
+                    border: 1px solid orangered;
+                    align-items: center;
+                    justify-content: center;
+                    height: 43px;
+                    width: 80%;
+                    
+
+                }
+                    
+
+            }
+
+             }
+     }
+
+            .view-all-car-camparison{
+                width: 100%;    
+                border: 1px solid  #8080804f;
+                padding: 20px 20px;
+        
+               a {
+                cursor: pointer;
+                font-weight: 600;
+                color: #4624e0ab;
+                transition: 1s;
+                transition-property: all;
+                
+        
+                &:hover{
+                    font-size: 15px;
+                    border-radius: 8px;
+                    color: white;
+                    padding: 10px;
+                    background-color: rgba(3, 3, 3, 0.651);
+                }  
+}            }
+}
+
+
+.select-city{
+    margin: 20px 52px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #8080804f;
+    display: flex;
+    float: left;
+    width: 100%;
+
+    .select-city-text{
+        position: relative;
+        border-bottom: 1px solid #8080804f;
+        width: 100%;
+
+        h2{
+            padding-bottom: 10px;
+        }
+    }
+
+    .select-city-box{
+        margin: 10px 0px;
+        align-content: center;
+        align-items: center;
+        display: flex;
+
+        ul{
+            margin-bottom: 10px;
+            height: auto;
+            width:950px;
+            display: inline-flex;
+            flex-wrap: wrap;
+            
+            
+
+            li{
+                border-bottom: 1px solid #8080804f;
+                height: 140px;
+                width: 140px;
+                display: inline-flex;
+                flex-direction: column;
+               
+                align-items: center;
+                margin-right: 10px;
+                margin-bottom: 15px;
+                flex-wrap: wrap;
+                box-sizing: border-box;
+
+
+                &:hover{
+                    border: 1px solid  #8080804f;
+                    
+                }
+
+                img{
+                    height: 80px;
+                    width: 100%;
+                    box-sizing: border-box;
+                }
+                    small{
+                        color: rgba(0, 0, 0, 0.411);
+                    }
+                    a{
+                        color: black;
+                    }    
+                }
+            }
+        }
+    
+    
+
+    .enter-city{
+        margin: 10px 0px;
+        align-content: center;
+        align-items: center;
+        display: flex;
+
+        ul{
+            margin-bottom: 10px;
+            height: auto;
+            width:300px;
+            display: inline-flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+        
+        li{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            position: relative;
+
+            .btn{
+                margin: 10px;
+                border: 5px solid orangered;
+                border-radius: 50%;
+                transition-property: border;
+                transition: 3s;
+                &:hover{
+                    border-radius: 0px;
+                    border: 1px solid black;
+                }
+                
+             
+                select{
+                    padding: 10px 60px;
+                    outline: none;
+                    border: none;
+                    
+
+
+                    option{
+                        border:1px solid #8080804f; ;
+                    }
+                }
+
+            }
+        }
+    }
+}
+}
+       
+
+
+.news-box{
+    margin: 20px 52px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #8080804f;
+    display: flex;
+    
+    flex-direction: row;
+    
+    .news-box-container{
+        margin-bottom: 10px;
+        height: auto;
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        
+
+        .news-box-contain{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        
+
+        ul{
+        width: 600px;
+        display: flex;
+        flex-direction: row;
+        margin: 15px;
+             li{
+            display: flex;
+            position: relative;
+            width: 300px;
+
+            img{
+                position: relative;
+            }
+            }
+
+        #news-box-text{
+            display: flex;
+            position: relative;
+            width: 300px;
+            margin: 21px 0px 0px 0px;
+            h3{
+                font-size: medium;
+                margin-bottom: 20px;
+                a{
+                    color: black;
+                    font-weight: 400;
+                    font-size: 15px;
+                   
+                }                
+            }
+            p{
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+                color: rgba(36,39,44,.5);
+                margin-bottom: 50px;
+            }
+
+            .authorThumbName {
+                border-radius: 100%;
+                width: 36px;
+                height: 36px;
+                background: #fafafa;
+                float: left;
+                overflow: hidden;
+                padding-top: 8px;
+                text-align: center;
+                font-size: 18px;
+                vertical-align: middle;
+                text-transform: uppercase;
+
+            }
+
+            .authorSummary{
+                font-size: 14px;
+                padding: 0px 5px;
+            }
+
+         .date{
+            color: rgba(36,39,44,.5);
+            font-size: 12px;
+         }
+        }
+
+
+        }
+
+    }   
+}
+}
+    
+
+
+
