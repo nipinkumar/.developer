@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous"> 
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.scss">
+    <title>Navebar</title>
+</head>
+<body>
+   
+    <header class="pb-5">    
+      
+     
+        <div class="navebar navbar-dark bg-dark p-2 position-sticky">
+            <div class="container d-flex justify-content-between pl-5">
+              <div class="col-md-2">  
+              <a href="" class="navbar-brand">
+                  <strong>Album</strong></a>
+                </div>
+                <div class="col-md-8">
+                  
+                  <div class="bmd-form d-flex align-items-center ">
+                  <button class="btn bmd-btn-icon" for="search" data-toggle="collapse" data-target="#collapse-search" aria-expanded="false" aria-controls="collapse-search" style="padding: 0;">                  
+                    <i class="material-icons " style="font-size: 30px; padding: 0; margin: 0; color: white;">search</i>
+                  </button>  
+              
+                  <span id="collapse-search" class="collapse">
+                    <input class="form-control" type="text" id="search" placeholder="Enter your query...">
+                  </span>
+                </div></div>
+                <div class="col-md-2  d-flex justify-content-end">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarheader" aria-controls="navbarheader" 
+                aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                </div>
+                  
+            </div>
+        </div>
+
+        <div class="header bg-dark collapse" id="navbarheader">
+    <div class="container">
+        <div class="row p-4 mx-1">
+
+            <div class="col-sm-6 col-md-7 text-white">
+                <h4>About</h4>
+                
+                <p class="text-muted">Add some information about the album below, the author, or any other background context. Make it a few sentences long so folks can pick up some informative tidbits. Then, link them off to some social networking sites or contact information.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 col-md-4 d-flex flex-column">
+                <h4 class="text-white">Contact</h4>
+               <ul class="list-unstyled">
+                    <li><a href="#" class=" text-white">Follow on Twitter</a></li>
+                    <li><a href="#" class="text-white">Like on Facebook</a></li>
+                    <li><a href="#" class="text-white">Email me</a></li>
+                  </ul>
+            </div>
+            
+
+        </div>
+
+    </div>
+    </div>
+    </div>
+
+        
+</header>
+
+<div class="container d-flex justify-content-center">
+ <div class="row">
+
+   <div class="col-md-4 px-3">
+    <div class="card" style="width: 18rem;">
+    <img src="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card with stretched link</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary stretched-link">Go somewhere</a>
+    </div>
+  </div>
+   </div>
+
+
+   <div class="col-md-4 px-3">
+    <div class="card" style="width: 18rem;">
+    <img src="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card with stretched link</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <a href="#" class="btn btn-primary stretched-link d-md-flex justify-content-center">Go somewhere</a>
+    </div>
+  </div>
+   </div>
+
+   <div class="col-md-4 px-3">
+    <div class="card" style="width: 18rem;">
+    <img src="https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Card with stretched link</h5>
+      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      <p class="text-right"><a href="#" class="btn btn-primary stretched-link ">Go somewhere</a></p>
+    </div>
+  </div>
+   </div>
+
+  </div>
+</div>
+
+
+
+</body>
+</html>

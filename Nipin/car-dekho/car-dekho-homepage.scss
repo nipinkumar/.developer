@@ -7,6 +7,13 @@
     height: auto;
     border: 1px solid #8080804f;
 
+    @media only screen and (max-width: 650px){
+        
+        margin: 10px auto;
+        padding: 0 10px;
+        
+    }
+
 
     .car-dekho-homepage-container-text{
         width: 100%;
@@ -26,7 +33,9 @@
 
             li{
                 display: flex;
-                margin-right: 26px;
+                margin-right: 30px;
+                height: 40px;
+                
                 
                 a{
                     display: flex;
@@ -34,6 +43,7 @@
                     padding-right: 50px;
                     color: black;
                     padding-bottom: 20px;
+                   
                     
 
                     &:hover{
@@ -75,6 +85,7 @@
                 height: 342px;
                 margin: 10px auto;
                 border-bottom: 1px solid #8080804f;
+                padding: 10px;
                 
                 
                 img{
@@ -106,6 +117,7 @@
                         padding: 10px 0px;
                         margin: 0 auto;
                         margin-top: 10px;
+                        cursor: pointer;
                         
                        
 
@@ -124,7 +136,18 @@
     position: relative;
 
     a{
-        color: rgb(77, 173, 233);
+        cursor: pointer;
+        font-weight: 600;
+        color: #4624e0ab;
+        transition: 1s;
+
+        &:hover{
+            font-size: 15px;
+            
+            border-radius: 8px;
+            color: white;
+            padding: 10px;
+            background-color: rgba(3, 3, 3, 0.651);}
     }
 }
 }
@@ -137,6 +160,13 @@ width: 100%;
 height: auto;
 border: 1px solid #8080804f;
 display: flex;
+flex-direction: column;
+@media only screen and (max-width: 650px){
+        
+    margin: 20px auto;
+    padding: 0 10px;
+    
+}
 
 
 .car-dekho-homepage-container-text{
@@ -159,6 +189,8 @@ display: flex;
         li{
             display: flex;
             margin-right: 26px;
+             height: 40px;
+                
             
             
             a{
@@ -208,9 +240,11 @@ display: flex;
            
             width: 300px;
             height: 342px;
-            margin: 0px 7px;
+            margin: 0px auto;
             border: 1px solid #8080804f;
             display: flex;
+            padding: 10px;
+            margin-bottom: 10px;
             
             
             
@@ -269,18 +303,7 @@ display: flex;
                             small{
 
                             }
-                        
-                    
-                }
-        }
-
-    
-
-
-}
-}
-}
-}
+                        }}}}}}
 
 
 .car-dekho-homepage-3{
@@ -289,6 +312,12 @@ display: flex;
     width: 100%;
     height: auto;
     border: 1px solid #8080804f;
+    @media only screen and (max-width: 650px){
+        
+        margin: 20px auto;
+        padding: 0 10px;
+        
+    }
     
     
          
@@ -310,6 +339,7 @@ display: flex;
             margin: 10px 0px;
             align-content: center;
             align-items: center;
+            width: 100%;
             
             
             
@@ -318,6 +348,7 @@ display: flex;
                 display: flex;
                 margin: 0px auto;
                 justify-content: center;
+                min-width: 317px;
 
                 li{
         
@@ -346,6 +377,10 @@ display: flex;
 
             }
 
+            .btn_for_view_other_brand{
+                margin-top: 10px;
+
+            
             a{
                 cursor: pointer;
                 font-weight: 600;
@@ -363,7 +398,7 @@ display: flex;
                     background-color: rgba(3, 3, 3, 0.651);
                     
                     
-                    
+                }
 
                 }
 
@@ -381,6 +416,13 @@ display: flex;
     width: 100%;
     height: auto;
     border: 1px solid #8080804f;
+
+    @media only screen and (max-width: 650px){
+        
+        margin: 20px auto;
+        padding: 0 10px;
+        
+    }
 
     .car-dekho-homepage-4-text{
         width: 100%;
@@ -406,8 +448,7 @@ display: flex;
             
             margin: 0px auto;
             margin-bottom: 10px;
-            height: auto;
-            width: 100%;
+           
             display: flex;
             justify-content: center;
             
@@ -415,11 +456,11 @@ display: flex;
             li{
                 border-bottom: 1px solid #8080804f;
                 height: 289px;
-                width: 390px;
+                width: 317px;
                 display: inline-flex;
                 justify-content: center;
-                margin-right: 10px;
-                margin-bottom: 15px;
+                padding: 10px;
+                margin: 0 auto;
 
 
                 &:hover{
@@ -528,6 +569,13 @@ display: flex;
     display: flex;
     float: left;
     width: 100%;
+    @media only screen and (max-width: 650px){
+        
+        margin: 20px auto;
+        padding: 0 10px;
+        
+    }
+   
 
     .select-city-text{
         position: relative;
@@ -540,18 +588,31 @@ display: flex;
     }
 
     .select-city-box{
-        margin: 10px 0px;
-        align-content: center;
-        align-items: center;
+        padding: 10px 0px;
         display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
 
-        ul{
+        .select-city-by-image{
             margin-bottom: 10px;
             height: auto;
-            width:950px;
-            display: inline-flex;
-            flex-wrap: wrap;
+            width:100%;
+            display: flex;
+            margin: 0 auto;
             
+            
+
+
+        ul{
+            
+            height: auto;
+            max-width: 950px;
+            min-width: 317px;
+            margin: 0px auto;
+            display: flex;
+            justify-content: center;
             
 
             li{
@@ -562,7 +623,7 @@ display: flex;
                 flex-direction: column;
                
                 align-items: center;
-                margin-right: 10px;
+                margin: 0 5px;
                 margin-bottom: 15px;
                 flex-wrap: wrap;
                 box-sizing: border-box;
@@ -580,42 +641,40 @@ display: flex;
                 }
                     small{
                         color: rgba(0, 0, 0, 0.411);
+                        padding: 5px 0;
                     }
                     a{
                         color: black;
                     }    
                 }
             }
-        }
+        
     
     
-
-    .enter-city{
-        margin: 10px 0px;
-        align-content: center;
-        align-items: center;
-        display: flex;
-
-        ul{
-            margin-bottom: 10px;
-            height: auto;
-            width:300px;
-            display: inline-flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            align-content: center;
+.enter-city{
+   position: relative;
+   margin: 0 auto;
+    ul{
+    width:300px;
+    height: auto;
+           
+ .select_dropdown_city{
+    position: relative;
         
         li{
             display: flex;
             justify-content: center;
             text-align: center;
             width: 100%;
-            position: relative;
+            height: 295px;
 
+            .btn_box{
+                height: 73px;
+                width: 100%;
             .btn{
                 margin: 10px;
-                border: 5px solid orangered;
-                border-radius: 50%;
+                border: 1px solid black;
+                border-radius: 22%;
                 transition-property: border;
                 transition: 3s;
                 &:hover{
@@ -635,13 +694,16 @@ display: flex;
                         border:1px solid #8080804f; ;
                     }
                 }
-
-            }
+             }
+             }
+         }
+         }
+        }
         }
     }
+     
+    }
 }
-}
-       
 
 
 .news-box{
@@ -651,8 +713,13 @@ display: flex;
     height: auto;
     border: 1px solid #8080804f;
     display: flex;
-    
     flex-direction: row;
+   
+    @media only screen and (max-width: 650px){
+        margin: 20px auto;
+        padding: 0 10px;
+        
+    }
     
     .news-box-container{
         margin-bottom: 10px;
@@ -666,13 +733,17 @@ display: flex;
             display: flex;
             flex-direction: row;
             width: 100%;
-        
+     
+            
 
         ul{
-        width: 600px;
+        width: 47%;
+        min-width: 317px;
         display: flex;
         flex-direction: row;
-        margin: 15px;
+        margin:0 auto;
+
+       
              li{
             display: flex;
             position: relative;
@@ -683,62 +754,256 @@ display: flex;
             }
             }
 
-        #news-box-text{
-            display: flex;
-            position: relative;
-            width: 300px;
-            margin: 21px 0px 0px 0px;
-            h3{
-                font-size: medium;
-                margin-bottom: 20px;
-                a{
-                    color: black;
-                    font-weight: 400;
-                    font-size: 15px;
-                   
-                }                
-            }
-            p{
-                text-overflow: ellipsis;
-                overflow: hidden;
-                white-space: nowrap;
-                color: rgba(36,39,44,.5);
-                margin-bottom: 50px;
-            }
-
-            .authorThumbName {
-                border-radius: 100%;
-                width: 36px;
-                height: 36px;
-                background: #fafafa;
-                float: left;
-                overflow: hidden;
-                padding-top: 8px;
-                text-align: center;
-                font-size: 18px;
-                vertical-align: middle;
-                text-transform: uppercase;
+            
 
             }
 
-            .authorSummary{
-                font-size: 14px;
-                padding: 0px 5px;
-            }
-
-         .date{
+        }   
+    }
+    #news-box-text{
+        display: flex;
+        position: relative;
+        width: 300px;
+        margin: 21px 0px 21px 0px;
+        h3{
+            font-size: medium;
+            margin-bottom: 20px;
+            a{
+                color: black;
+                font-weight: 400;
+                font-size: 15px;
+               
+            }                
+        }
+        p{
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
             color: rgba(36,39,44,.5);
-            font-size: 12px;
-         }
+            padding-bottom:18px;
         }
 
+        .authorThumbName {
+            border-radius: 100%;
+            width: 36px;
+            height: 36px;
+            background: #fafafa;
+            float: left;
+            overflow: hidden;
+            padding-top: 8px;
+            text-align: center;
+            font-size: 18px;
+            vertical-align: middle;
+            text-transform: uppercase;
 
         }
 
-    }   
-}
+        .authorSummary{
+            font-size: 14px;
+            padding: 0px 5px;
+        }
+
+     .dotlist{
+        color: rgba(36,39,44,.5);
+        font-size: 12px;
+        
+     }
+    }
+    
+    
+    .view-all-car-camparison{
+        width: 100%;    
+        padding: 20px 20px;
+    
+       a {
+        cursor: pointer;
+        font-weight: 600;
+        color: #4624e0ab;
+        transition: 1s;
+        transition-property: all;
+        
+    
+        &:hover{
+            font-size: 15px;
+            border-radius: 8px;
+            color: white;
+            padding: 10px;
+            background-color: rgba(3, 3, 3, 0.651);
+        } 
+    
+             }
+          }
+
 }
     
 
+.footer_Start{
+    margin: 10px 0px;
+    padding: 0;
+    width: 100%;
+    border-top: 1px solid #8080804f;
+    display: flex;
+    
+    @media only screen and (max-width: 650px){
+        margin: 20px auto;
+        padding: 0 10px;
+        
+    }
+    
 
 
+    .footer_Start-box{
+        margin: 10px 0px;
+        width: 100%;
+        display: flex;
+        margin: 20px 52px;
+        padding: 20px;
+
+    ul{
+        margin-bottom: 10px;
+        height: auto;
+        width:100%;
+        margin: 0px auto;
+        display: flex;
+        min-width: 317px;
+        
+        
+
+        .title{
+            display: flex;
+            flex-direction: row;
+            margin: 0 auto;
+            height: 80px;
+            width: 200px;
+           
+
+            i{
+            position: relative;
+            
+            }
+            
+            h2{
+                position: relative;
+            }
+
+                p{
+                    color: rgba(36,39,44,.5);
+                }
+            }
+        }
+    }
+
+}
+
+
+.footer_end{
+    margin: 10px 0px;
+    padding: 0;
+    width: 100%;
+    border: 1px solid #8080804f;
+    display: flex;
+    float: left;
+
+    .footer_end_container-box{
+        margin: 10px 0px;
+        display: flex;
+        margin: 20px 52px;
+        padding: 20px;
+
+        @media only screen and (max-width: 650px){
+            margin: 20px auto;
+            padding: 0 10px;
+            
+        }
+
+        ul{
+            margin-bottom: 10px;
+            height: auto;
+            width:100%;
+            margin: 0px auto;
+            display: flex;
+            flex-direction: row;
+
+            li{
+            display: inline-flex;
+            flex-direction: column;
+            height: 174px;
+            width: 221px;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            p{
+                
+                font-size: 13px;
+                text-transform: uppercase;
+                padding-bottom: 10px;
+
+                
+            }
+                
+                small{
+                    padding-bottom: 10px;
+                    color: rgba(36,39,44,.5);
+                    cursor: pointer;
+                    &:hover{
+                        color: blue;
+                        font-size: 15px;
+                        
+                    }
+                }
+            }
+        
+        
+               
+                #app_download_link{
+                    width: 300px;
+                    height: 150px;
+                    display: inline-flex;
+                    flex-direction: column;
+                    
+                    p{
+                
+                        font-size: 13px;
+                        text-transform: uppercase;
+                        padding-bottom: 10px;
+                    }
+
+                    img{
+                        width: 100%;
+                        height: auto;
+                        padding-bottom: 10px;
+                        cursor: pointer;}
+
+                    small{
+                        position: relative;
+                    }
+
+                
+
+
+                    .fa_fa_icons{
+                        color: rgba(36,39,44,.5);
+                        padding: 10px 0px;
+                        
+                    
+                    i{
+                        margin-right:10px;
+                        font-size: 19px;
+                        transition: 1s;
+                        cursor: pointer;
+
+                        &:hover{
+                            color: green;
+                            font-size: 24px;
+                        }
+                    }
+
+                
+                }
+            }
+
+        }
+
+    
+
+    }
+}

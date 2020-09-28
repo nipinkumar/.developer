@@ -1,0 +1,41 @@
+#brand_img {
+  height: 66px;
+  max-width: 200px; }
+  #brand_img img {
+    height: auto;
+    width: 100%; }
+
+.navbar-light .navbar-toggler-icon {
+  background-image: none; }
+
+#dropdown-menu {
+  background-color: #4e4747e6; }
+  #dropdown-menu .dropdown-item {
+    color: #6d757d;
+    font-size: small; }
+
+.main_body_1 {
+  background-image: url("https://haymanwoodward.law/wp-content/uploads/2019/07/banner_topo.jpg");
+  min-height: 580px; }
+  .main_body_1 .container {
+    max-width: 700px; }
+    .main_body_1 .container .first {
+      border-bottom: 1px solid #c4af6f; }
+    .main_body_1 .container p {
+      color: #c4af6f;
+      text-transform: uppercase;
+      padding: 0;
+      margin: 0; }
+
+#main_body_1_btn {
+  border-radius: 15px; }
+
+.container-fluid {
+  padding: 0;
+  margin: 0;
+  height: 580px;
+  width: 100%; }
+  .container-fluid #carouselExampleCaptions img {
+    height: 580px;
+    width: 100%;
+    margin: 0; }
