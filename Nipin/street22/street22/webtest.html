@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+   <title>STREET22</title>
+   <!-- Favicon -->
+   <link rel="shortcut icon" type="image/x-icon" href="assets/images/producty/favicon.png" />
+   <!-- Google Fonts -->
+   <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800&amp;display=swap"
+      rel="stylesheet" />
+   <link rel="stylesheet" href="assets/css/vendor/plugins.min.css">
+   <link rel="stylesheet" href="assets/css/style.min.css">
+   <link rel="stylesheet" href="assets/css/responsive.min.css">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="men-women.css">
+
+
+   <!-- CSS only -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+   <!-- JS, Popper.js, and jQuery -->
+   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"></script>
+
+</head>
+
+<style>
+   button {
+      border: none;
+
+   }
+
+   .btn.focus,
+   .btn:focus {
+      border: none;
+      box-shadow: none;
+
+   }
+
+   .color_box a {
+      margin: 5px;
+      display: flex;
+      flex-wrap: wrap;
+      overflow: hidden;
+      display: block;
+   }
+
+
+   .productCardDetail h3 {
+      font-size: 12px;
+   }
+</style>
+
+<body>
+   <div id="main">
+      <!-- Header Start -->
+      <header class="main-header">
+         <!-- Header Top Start -->
+         <div class="header-top-nav">
+            <div class="container-fluid">
+               <div class="row">
+                  <!--Left Start-->
+                  <div class="col-lg-4 col-md-4">
+                     <div class="left-text">
+                        <p>Welcome street22.in !</p>
+                     </div>
+                  </div>
+                  <!--Left End-->
+                  <!--Right Start-->
+                  <div class="col-lg-8 col-md-8 text-right">
+                     <div class="header-right-nav">
+                        <ul class="res-xs-flex">
+                           <li class="after-n">
+                              <a href="#"><i class="ion-ios-shuffle-strong"></i>Offer</a>
+                           </li>
+                           <li>
+                              <a href="#"><i class="ion-android-favorite-outline"></i>Contact us</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+                  <!--Right End-->
+               </div>
+            </div>
+         </div>
+         <!-- Header Top End -->
+         <!-- Header Buttom Start -->
+         <div class="header-navigation sticky-nav">
+            <div class="container-fluid">
+               <div class="row">
+                  <!-- Logo Start -->
+                  <div class="col-md-2 col-sm-2">
+                     <div class="logo">
+                        <a href="index.html"><img src="assets/images/producty/logo.png" alt="" /></a>
+                     </div>
+                  </div>
+                  <!-- Logo End -->
+                  <!-- Navigation Start -->
+                  <div class="col-md-10 col-sm-10">
+                     <!--Main Navigation Start -->
+                     <div class="main-navigation d-none d-lg-block">
+                        <ul>
+                           <li class=""> <a href="#">Men</a> </li>
+                           <li class=""> <a href="#">Women</a> </li>
+                           <li class=""> <a href="#">Mobile Covers</a> </li>
+                           <li class=""> <a href="#">Saving Zone</a> </li>
+                        </ul>
+                        </li>
+                        </ul>
+                     </div>
+                     <!--Main Navigation End -->
+                     <!--Header Bottom Account Start -->
+                     <div class="header_account_area">
+                        <!--Seach Area Start -->
+                        <div class="header_account_list search_list">
+                           <a href="javascript:void(0)"><i class="ion-ios-search-strong"></i></a>
+                           <div class="dropdown_search">
+                              <form action="#">
+                                 <input placeholder="Search entire store here ..." type="text" />
+                                 <div class="search-category">
+                                    <select class="bootstrap-select" name="poscats">
+                                       <option value="0">All categories</option>
+                                       <option value="104">
+                                          Women Tshirt
+                                       </option>
+                                    </select>
+                                 </div>
+                                 <button type="submit"><i class="ion-ios-search-strong"></i></button>
+                              </form>
+                           </div>
+                        </div>
+                        <!--Seach Area End -->
+                        <!--Cart info Start -->
+                        <div class="cart-info d-flex">
+                           <a href="#" style="color:#000;">LOGIN</a>
+                        </div>
+                        <!--Cart info End -->
+                     </div>
+                  </div>
+               </div>
+               <!-- mobile menu -->
+               <div class="mobile-menu-area">
+                  <div class="mobile-menu">
+                     <nav id="mobile-menu-active">
+                        <ul class="menu-overflow">
+                           <li><a href="#">Men</a></li>
+                           <li><a href="#">Women</a></li>
+                           <li><a href="#">Mobile cover</a></li>
+                           <li><a href="#">Safe zone</a></li>
+                        </ul>
+                     </nav>
+                  </div>
+               </div>
+               <!-- mobile menu end-->
+            </div>
+         </div>
+         <!--Header Bottom Account End -->
+      </header>
+   </div>
+
+   <!-- Header End -->
+
+
+
+
+
+               <!-- info-bar-start -->
+               <div class="search-infobar">
+                  <div class="container px-3">
+                     <div class="row">
+                        <ul class=" d-flex list-unstyled ">
+                           <li>
+                              <a class="px-2 small ">Home /</a>
+                           </li>
+                           <li>
+                              <a class="small">Men Clothing</a>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+               <!-- info-bar - end-->
+
+
+               <!-- men-section-start -->
+               <div class="mens_section pt-3">
+                  <div class="container px-0 py-2">
+                     <div class="heading d-flex pb-1">
+                        <h3 class="pr-2">Men's Clothing</h3>
+                        <span class="text-muted font-weight-normal" style="font-size: 24px;">(885)</span>
+                     </div>
+                     <div class="col-2 border-top border-warning pt-4"></div>
+                  </div>
+
+               <div class="mens_section_box padding0">
+                  <div class="container">
+                     <div class="row d-flex">
+
+               <!-- men-section-fliterbar-start -->  
+               <div class="col-md-3">
+                                     
+                        <div class="filterHeadingDesktop">
+                           <h7 class="text-muted" style="font-family: montserrat-bold,sans-serif; text-transform: uppercase; font-size:12px;">Filters</h7>
+                        </div>
+                        <div class="filterWrap hidden-xs">
+                           <div class="accordionWrapper">
+                              <div class="accordionBox clearfix">
+                                
+
+                                       <div class="accordion " id="accordionExample">
+                                          <div class="card border-0" style="border: none;">
+                                            <div class="card-header border-0" id="category">
+                                              <h2 class="mb-0 p-0">
+                                                <button class="btn btn-link btn-block collapsed text-left list-unstyled text-dark d-flex justify-content-between btn-collapse" id="category-btn" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                                 <p>Category</p> 
+                                                 <i class="material-icons arrow-down" id="expand_more">expand_more</i>
+                                                 <i class="material-icons arrow-up" id="expand_more">expand_less</i>
+                                                   
+                                                </button>
+                                              </h2>
+                                            </div>
+                                        
+                                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                              <div class="card-body border-bottom ">
+                                                 <ul class="">                           
+                                                      <li><a class="text-muted small" aria-current="false" href="" style="height: 100%; display: block; text-transform: capitalize; text-decoration: none;">t-shirt</a></li>
+                                                      <li><a class="text-muted small" aria-current="false" href="" style="height: 100%; display: block; text-transform: capitalize; text-decoration: none;">Boxer</a></li>
+                                                      <li><a class="text-muted small" aria-current="false" href="" style="height: 100%; display: block; text-transform: capitalize; text-decoration: none;">Jogger</a></li>
+                                                      <li><a class="text-muted small" aria-current="false" href="" style="height: 100%; display: block; text-transform: capitalize; text-decoration: none;">t-shirt</a></li>
+                                                      <li><a class="text-muted small" aria-current="false" href="" style="height: 100%; display: block; text-transform: capitalize; text-decoration: none;">Boxer</a></li>
+                                                      <li><a class="text-muted small" aria-current="false" href="" style="height: 100%; display: block; text-transform: capitalize; text-decoration: none;">Jogger</a></li>
+                                                      <li><a class="text-muted small" aria-current="false" href="" style="height: 100%; display: block; text-transform: capitalize; text-decoration: none;">t-shirt</a></li>
+                                                      <li><a class="text-muted small" aria-current="false" href="" style="height: 100%; display: block; text-transform: capitalize; text-decoration: none;">Boxer</a></li>
+                                                      <li><a class="text-muted small" aria-current="false" href="" style="height: 100%; display: block; text-transform: capitalize; text-decoration: none;">Jogger</a></li>
+                                                      <li><a class="text-muted small" aria-current="false" href="" style="height: 100%; display: block; text-transform: capitalize; text-decoration: none;">t-shirt</a></li>
+                                                      <li><a class="text-muted small" aria-current="false" href="" style="height: 100%; display: block; text-transform: capitalize; text-decoration: none;">Boxer</a></li>
+                                                      <li><a class="text-muted small" aria-current="false" href="" style="height: 100%; display: block; text-transform: capitalize; text-decoration: none;">Jogger</a></li>
+                                                  
+                                                   
+                                                </ul>
+                                                </div>
+                                            </div>
+                                          </div>
+                                       </div>
+                                          
+                                          <div class="card border-0">
+                                             <div class="card-header border-0" id="Size">
+                                               <h2 class="mb-0">
+                                                 <button class="btn btn-link btn-block text-left collapsed btn-collapse m-0 text-dark d-flex justify-content-between" style="text-decoration: none;" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                                  <p>Sizes</p> 
+                                                  <i class="material-icons arrow-down" id="expand_more">expand_more</i>
+                                                 <i class="material-icons arrow-up" id="expand_more">expand_less</i>                                                 </button>
+                                               </h2>
+                                             </div>
+                                             <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                               <div class="card-body border-bottom">
+                                                   <ul>
+                            
+                                                      <li><a class="text-muted small" aria-current="false" href="" style="height: 100%; display: block; text-transform: capitalize; text-decoration: none;">STANDARD</a></li>
+                                                      <li><a class="text-muted small" aria-current="false" href="" style="height: 100%; display: block; text-transform: capitalize; text-decoration: none;">S</a></li>
+                                                      <li><a class="text-muted small" aria-current="false" href="" style="height: 100%; display: block; text-transform: capitalize; text-decoration: none;">M</a></li>
+                                                      <li><a class="text-muted small" aria-current="false" href="" style="height: 100%; display: block; text-transform: capitalize; text-decoration: none;">L</a></li>
+                                                      <li><a class="text-muted small" aria-current="false" href="" style="height: 100%; display: block; text-transform: capitalize; text-decoration: none;">XL</a></li>
+                                                   </ul>
+                                                    
+
+                                                   
+                                                 </div>
+                                             </div>
+                                           </div>
+
+                                           <div class="card border-0">
+                                             <div class="card-header border-0" id="colors">
+                                               <h2 class="mb-0">
+                                                 <button class="btn btn-link btn-block text-dark collapsed m-0 d-flex justify-content-between btn-collapse" style="text-decoration: none;"  type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThee">
+                                                   <p>Colors</p> 
+                                                   <i class="material-icons arrow-down" id="expand_more">expand_more</i>
+                                                 <i class="material-icons arrow-up" id="expand_more">expand_less</i>
+                                                 </button>
+                                               </h2>
+                                             </div>
+                                             <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                               <div class="card-body">
+                                                <ul class="colorbox d-flex border-bottom">
+
+                                                   <li><a href=""> <div class="colorLink" style="background-color: #000;"></div></a></li>
+                                                    <li><a href=""><div class="colorLink" style="background-color: rgb(160, 53, 53);"></div></a></li>
+                                                    <li><a href=""><div class="colorLink" style="background-color: rgb(7, 62, 243);"></div></a></li>
+                                                    <li><a href=""><div class="colorLink" style="background-color: red;"></div></a></li>
+                                                    <li><a href=""><div class="colorLink" style="background-color: orange;"></div></a></li>
+                                                    <li><a href=""><div class="colorLink" style="background-color: orangered"></div></a></li>
+                                                      
+                                                   </ul>
+                                                    
+
+                                                   
+                                                 </div>
+                                             </div>
+                                           </div>
+                                    </div>
+                                 </div>
+                              </div>
+                        </div>
+                     
+               <!-- men-section-fliterbar-End -->
+
+
+               <!-- men-section-Addbox-start --> 
+
+               <div class="col-md-9 d-flex flex-wrap">
+
+                  <div class="col-md-4 pb-3 " id="ad_box ">
+                     <div class="contain">
+                        <div class="card-img">
+                           <div class="favorite-icon float-right d-flex justify-content-center align-items-center ">
+                              <i class="material-icons" id="favorite-icon">favorite_border</i>
+                           </div>
+                        </div>
+                        <div class="card-body m-0 p-1">
+                           <div class="productCardDetail m-0">
+                              <h3 class="m-0">White Vest</h3>
+                              <div class="productPriceBox clearfix d-flex justify-content-between  m-0" style="padding-bottom: 5px;">
+                                 <span class="discountedPriceText">₹ <b>299</b></span>
+                              <i class="material-icons" style="font-size: 18px; color: goldenrod;">monetization_on</i>
+                              </div>
+
+                                 <div class="loyaltyPriceBox">
+                                    <h6><span>₹</span> <b>254</b> For TriBe Members</h6>
+                                 </div><span class="useCoinIcon"></span>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  
+
+                     <div class="col-md-4 pb-3 " id="ad_box ">
+                        <div class="contain">
+                           <div class="card-img" id="card-img">
+                              <div class="favorite-icon float-right d-flex justify-content-center align-items-center ">
+                                 <i class="material-icons" id="favorite-icon">favorite_border</i>
+                              </div>
+                           </div>
+                           <div class="card-body m-0 p-1">
+                              <div class="productCardDetail m-0">
+                                 <h3 class="m-0">White Vest</h3>
+                                 <div class="productPriceBox clearfix  m-0" style="padding-bottom: 5px;">
+                                    <span class="discountedPriceText">₹ <b>299</b></span> <span class="actualPriceText text-muted">449</span>
+                             
+                                 </div>
+   
+                                    <div class="loyaltyPriceBox">
+                                       <h6><span>₹</span> <b>254</b> For TriBe Members</h6>
+                                    </div><span class="useCoinIcon"></span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     
+
+                        
+                     <div class="col-md-4 pb-3 " id="ad_box ">
+                        <div class="contain">
+                           <div class="card-img">
+                              <div class="favorite-icon float-right d-flex justify-content-center align-items-center ">
+                                 <i class="material-icons" id="favorite-icon">favorite_border</i>
+                              </div>
+                           </div>
+                           <div class="card-body m-0 p-1">
+                              <div class="productCardDetail m-0">
+                                 <h3 class="m-0">White Vest</h3>
+                                 <div class="productPriceBox clearfix  m-0" style="padding-bottom: 5px;">
+                                    <span class="discountedPriceText">₹ <b>275</b></span> <span class="actualPriceText text-muted">399</span>
+                             
+                                 </div>
+   
+                                    <div class="loyaltyPriceBox">
+                                       <h6><span>₹</span> <b>254</b> For TriBe Members</h6>
+                                    </div><span class="useCoinIcon"></span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     
+   
+               </div>
+
+               <!-- men-section-Addbox-end --> 
+               
+                
+
+
+
+               </div>
+
+            </div>
+
+         </div>
+
+               </div>
+                <!-- men-section-End -->
+   </div>
+   </div>
+   </div>
+  </body>
+
+</html>

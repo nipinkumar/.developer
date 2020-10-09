@@ -1,0 +1,166 @@
+
+
+
+
+.card{
+    text-decoration: none;
+    color: black;
+    border: none
+    list-style: none;
+}
+.card ul li{
+    margin-bottom: 7px;
+    list-style: none;
+}
+
+
+
+
+#category , #Size, #colors{
+    margin: 0;
+    padding: 0;
+
+}
+
+#category-btn{
+    text-decoration: none;
+}
+
+
+
+.colorbox li{
+    margin: 0 auto;
+}
+
+
+button {
+    border: none;
+
+ }
+
+ .btn.focus,
+ .btn:focus {
+    border: none;
+    box-shadow: none;
+
+ }
+
+ .color_box a {
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    display: block;
+ }
+
+ .colorLink {
+    display: block;
+    border: 1px solid #e6e6e6;
+    border-radius: 4px;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+
+ }
+
+
+ .color_box a {
+    margin: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    display: block;
+ }
+
+
+
+
+
+ _________________________________________________
+
+ .productCardDetail h3 {
+    font-size: 12px;
+ }
+
+ .productCardDetail h3 {
+    font-size: 12px;
+ }
+
+
+
+.card-img{
+    height: 303px ;
+    width: 252px;
+    background-image: url("https://images.bewakoof.com/t540/white-vest-men-s-plain-round-neck-vest-210689-1558176169.jpg");
+    background-size: 100% 100% ;
+    background-repeat: no-repeat;
+    transition: 0.5s all;
+}
+
+
+.card-img:hover{
+    background-image: url("https://images.bewakoof.com/t540/young-forever-side-half-sleeve-t-shirt-white-men-s-printed-t-shirts-277586-1597205986.jpg") ;
+}
+
+.loyaltyPriceBox h6{
+    font-size: 12px;
+
+}
+
+.actualPriceText{
+    text-decoration: line-through;
+    font-size: 13px;
+}
+
+
+
+
+
+.favorite-icon{
+    background-color: hsla(0,0%,100%,.7);
+    width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    text-align: center;
+    display: block;
+    float: right;
+    font-size: 20px;
+    cursor: pointer;
+    position: unset;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+#favorite-icon{
+    font-size: 25px;
+    color: rgb(90, 84, 84);
+    transition: 0.1s all;
+}
+
+#favorite-icon:hover{
+    font-size: 28px;
+    color: lightcoral;
+    
+}
+
+.btn-collapse.collapsed .arrow-down{
+    display: inline-block;
+}
+
+
+.btn-collapse.collapsed .arrow-up{
+    display: none;
+}
+
+.btn-collapse .arrow-down{
+    display: none;
+}
+
+
+.btn-collapse .arrow-up{
+    display: inline-block;
+}
+
+
+
+
+
