@@ -1,0 +1,139 @@
+
+.page_top_contest {
+
+    margin-bottom: 100px;
+ 
+.top_content{
+    background-image: url("../assets/top-content.jpg");
+    background-size: 100% 100%;
+    
+
+    .center-text h2{
+        font-size: 42px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+        
+    }
+    .center-text p{
+            font-size: 22px;
+            font-family: monospace;
+            font-weight: 800;
+        }
+    
+}
+
+   
+
+
+.about{
+    box-sizing: border-box;
+    margin-top: -160px;   
+    
+    .row{
+        margin: 0 20px;
+
+       .questions{
+        max-width: 350px;
+        padding: 0 7px;
+        
+        .box{
+            background-color: white;
+            padding:10px;
+            
+            margin-top: 20px;
+            border: 1px solid rgba(128, 128, 128, 0.425);
+            border-radius: 5px;
+            
+        .heading{
+            
+            background: #4b4b4b;
+            
+            margin: 0;
+            padding: 28px;
+            
+            
+        
+            h3{
+            font-size: 20px;
+            color: #fff;
+            font-weight: bolder;
+            text-transform: uppercase;
+            font-family: "Patuaone";
+            }
+            span{
+               font-size: 30px;
+               color: #ffd16d;
+            }
+        }
+
+        .text{
+            font-family: Arial;
+            color: #303030;
+            line-height: 20px;
+            padding: 20px 16px 10px;
+            font-size: 14px;
+            text-align: justify;
+    
+        }
+    }
+}
+}       
+        .mid-box{
+            margin-top: -22px;  
+         }    
+       
+    }
+
+    .title{
+        font-size: 35px;
+        color: #303030;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+        font-family: "Helvetica Neue";
+    }
+        .text{
+            font-size: 20px;
+            text-align: center;
+            display: block;
+            padding: 0px;
+            font-family: monospace;
+        }
+
+
+        .about_details_box{
+            
+           
+            .col-md-4{
+               
+                .box{
+                    .heading-text{
+                        
+                        justify-content: space-between;
+                        align-items: center;
+                        i{
+                            font-size: 50px;
+                            
+                        }
+                        h3{
+                            font-size: 23px;
+                            font-family: monospace;
+                            
+                        }
+                    }
+
+                    p{
+                        font-size: 14px;
+                        
+                        text-align: justify;
+                    }
+                }
+            }
+            
+        }
+    }
+
+
+
+
+    
+   

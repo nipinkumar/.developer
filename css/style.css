@@ -1,0 +1,316 @@
+.social,
+.flex-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.social-btn {
+  cursor: pointer;
+  height: 50px;
+  width: 50px;
+  font-family: "Titillium Web", sans-serif;
+  color: #333;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+  background: white;
+  margin: 5px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.fa {
+  font-size: 29px;
+}
+
+.social-btn span {
+  width: 0px;
+  overflow: hidden;
+  -webkit-transition: 1s;
+  transition: 1s;
+  text-align: center;
+}
+
+.social-btn:hover {
+  width: 150px;
+  border-radius: 5px;
+}
+
+.social-btn:hover span {
+  padding: 2px;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+#twitter svg {
+  fill: #1da1f2;
+}
+
+#linkedin svg {
+  fill: #0e76a8;
+}
+
+#github {
+  fill: #333;
+}
+.navopen.collapsed .close_tag_icon {
+  display: none;
+}
+
+.navopen .close_tag_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navopen.collapsed .open_tag_icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.navopen .open_tag_icon {
+  display: none;
+}
+
+.icon-bar {
+  width: 70px;
+  background-color: #273a3667;
+}
+
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 25px 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+}
+
+.icon-bar a:hover {
+  background-color: rgba(0, 0, 0, 0.507);
+}
+
+header {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(63, 19, 19, 0.13)), to(rgba(35, 39, 39, 0.267)));
+  background-image: linear-gradient(rgba(63, 19, 19, 0.13), rgba(35, 39, 39, 0.267));
+}
+
+.banner {
+  background-image: url("../assets/bg-banner.jpg");
+  background-size: 100% 100%;
+}
+
+@media only screen and (max-width: 572px) {
+  .banner .icon-bar {
+    width: 100%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+}
+
+.banner .slider-content h1 {
+  font-size: 90px;
+  padding-right: 5px;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+  background: -webkit-linear-gradient(rgba(166, 129, 236, 0.568), #d8c2ec);
+  font-family: "Bangers";
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.banner .slider-content p {
+  font-family: "Courier New", Courier, monospace;
+  padding-right: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.about {
+  max-width: 100%;
+  background-color: #36b7b3;
+}
+
+.about .about_me {
+  background-image: url("../assets/about_me.jpg");
+  background-size: 100% 100%;
+  height: 400px;
+}
+
+.about .about_me .spinner-border {
+  display: inline-block;
+  width: 142px;
+  height: 142px;
+  top: 16px;
+  left: 91px;
+  position: relative;
+  -webkit-animation: spinner-border 1.5s linear infinite;
+          animation: spinner-border 1.5s linear infinite;
+  color: #36b7b3;
+  border: 12px solid currentColor;
+  border-right-color: transparent;
+}
+
+@media only screen and (max-width: 1199px) {
+  .about .about_me .spinner-border {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .about .about_me .spinner-border {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    top: 5px;
+    left: 75px;
+    width: 156px;
+    height: 156px;
+    border: 26px solid currentColor;
+    border-right-color: transparent;
+  }
+}
+
+@media only screen and (max-width: 524px) {
+  .about .about_me .spinner-border {
+    display: none;
+  }
+}
+
+.about .about_text_box {
+  background-color: #36b7b3;
+  padding-top: 100px;
+}
+
+.about .about_text_box h1 {
+  font-size: 54px;
+  color: #1d1212;
+  font-weight: bold;
+}
+
+.about .about_text_box .subtitle {
+  font-size: 20px;
+}
+
+.about .about_text_box p {
+  font-size: 15px;
+}
+
+.skills {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#36b7b3), to(#ddefee));
+  background-image: linear-gradient(#36b7b3, #ddefee);
+}
+
+.skills h2 {
+  font-size: 60px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.skills .sk-items {
+  padding-top: 50px;
+}
+
+.skills .card {
+  background-color: transparent;
+  border: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.skills .card:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.skills .fa {
+  font-size: 25px;
+  margin: 0 5px;
+}
+
+.skills .checked {
+  color: orange;
+}
+
+.skills .responsive {
+  height: 235px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .skills .responsive {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 988px) {
+  .skills .responsive {
+    height: 145px;
+  }
+}
+
+@media only screen and (max-width: 765px) {
+  .skills .responsive {
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 572px) {
+  .skills .responsive {
+    height: 235px;
+  }
+}
+
+.services {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#ddefee), to(#c650e434));
+  background-image: linear-gradient(#ddefee, #c650e434);
+}
+
+.services .card {
+  background-color: transparent;
+  border: none;
+  border: 2px solid #8888883a;
+  display: block;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.services .card:hover {
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.175);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.175);
+  margin-top: -8px;
+}
+
+.services .fa {
+  font-size: 45px;
+  margin: 0 5px;
+}
+
+.contact {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#c650e434), to(gray));
+  background-image: linear-gradient(#c650e434, gray);
+}
+
+footer {
+  background-image: -webkit-gradient(linear, left top, left bottom, from(gray), to(#343a40));
+  background-image: linear-gradient(gray, #343a40);
+}
+/*# sourceMappingURL=style.css.map */

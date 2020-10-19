@@ -1,0 +1,1009 @@
+
+
+.car-dekho-homepage{
+    margin: 20px 52px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #8080804f;
+
+    @media only screen and (max-width: 650px){
+        
+        margin: 10px auto;
+        padding: 0 10px;
+        
+    }
+
+
+    .car-dekho-homepage-container-text{
+        width: 100%;
+      
+        h2{
+            display: block;
+            padding-bottom: 20px;
+            
+        }
+
+            ul{
+                padding: 0px;
+                display: flex;
+                border-bottom: 1px solid #8080804f;
+                
+            
+
+            li{
+                display: flex;
+                margin-right: 30px;
+                height: 40px;
+                
+                
+                a{
+                    display: flex;
+                    flex-direction: row;
+                    padding-right: 50px;
+                    color: black;
+                    padding-bottom: 20px;
+                   
+                    
+
+                    &:hover{
+                        border-bottom: 2px solid orangered;
+                        
+                    }
+
+                }
+                
+            }
+        }
+    }
+
+    
+    .car-dekho-homepage-container-category{
+        box-sizing: border-box;
+        padding: 20px 0px;
+
+        .car-dekho-homepage-container-category-car-box{
+            box-sizing: border-box;
+            display: inline-flex;
+            height: auto;
+            width: 100%;
+        
+
+        ul{
+        padding: 10px;
+        display: flex;
+        width: 100%;
+        height: auto;
+        margin: 0px auto;
+        position: relative;;
+        
+        
+
+            li{
+               
+                width: 300px;
+                height: 342px;
+                margin: 10px auto;
+                border-bottom: 1px solid #8080804f;
+                padding: 10px;
+                
+                
+                img{
+                    width: 100%;
+                    height: 194px;
+                    
+                
+                }
+            }
+
+                    p{
+                        padding: 5px 0px;
+                        font-family: cursive;
+                        margin: 0px 20px;
+                
+                    }
+
+                   
+                   
+                    
+                    span{
+                        border: 1px solid orangered;
+                        width: 230px;
+                        display: block;
+                        text-align: center;
+                        font-size: 12px;
+                        font-weight: bold;
+                        color: orangered;
+                        padding: 10px 0px;
+                        margin: 0 auto;
+                        margin-top: 10px;
+                        cursor: pointer;
+                        
+                       
+
+                    }
+                    
+                
+                    
+                
+                    
+                
+            }
+    
+        }
+    }
+.view-all-car{
+    position: relative;
+
+    a{
+        cursor: pointer;
+        font-weight: 600;
+        color: #4624e0ab;
+        transition: 1s;
+
+        &:hover{
+            font-size: 15px;
+            
+            border-radius: 8px;
+            color: white;
+            padding: 10px;
+            background-color: rgba(3, 3, 3, 0.651);}
+    }
+}
+}
+       
+
+.car-dekho-homepage-2{
+margin: 20px 52px;
+padding: 20px;
+width: 100%;
+height: auto;
+border: 1px solid #8080804f;
+display: flex;
+flex-direction: column;
+@media only screen and (max-width: 650px){
+        
+    margin: 20px auto;
+    padding: 0 10px;
+    
+}
+
+
+.car-dekho-homepage-container-text{
+  
+    h2{
+        padding-bottom: 20px;
+        
+    }
+
+
+        ul{
+            padding: 0px;
+            display: inline-flex;
+            border-bottom: 1px solid #8080804f;
+            height: auto;
+            width: 100%;
+            
+        
+
+        li{
+            display: flex;
+            margin-right: 26px;
+             height: 40px;
+                
+            
+            
+            a{
+                display: flex;
+                flex-direction: row;
+                padding-right: 50px;
+                color: black;
+                padding-bottom: 20px;
+                
+
+                &:hover{
+                    border-bottom: 2px solid orangered;
+                    
+                }
+
+            }
+            
+            
+        }
+    }
+}
+
+
+.car-dekho-homepage-container-category{
+    box-sizing: border-box;
+    padding: 20px 0px;
+
+    .car-dekho-homepage-container-category-car-box{
+        box-sizing: border-box;
+        display: flex;
+        height: auto;
+        margin: 0px auto;
+       
+    ul{
+    padding-left: 10px;
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 0px auto;
+    position: relative;
+    
+    
+    
+    
+
+        li{
+           
+            width: 300px;
+            height: 342px;
+            margin: 0px auto;
+            border: 1px solid #8080804f;
+            display: flex;
+            padding: 10px;
+            margin-bottom: 10px;
+            
+            
+            
+            img{
+                width: 100%;
+                height: 194px;
+                
+            
+            }
+        
+
+                p{
+                    padding: 5px 0px;
+                    font-family: cursive;
+                    margin: 0px 20px;
+            
+                }
+                small{
+                    padding: 5px 0px;
+                    font-family: cursive;
+                    margin: 0px 20px;
+                    color: #00000098 ;
+                }
+            
+                .used-availble-car{
+                    padding: 20px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    h2{
+                        font-size: 33px;
+                    }
+
+                        p{
+                            color: rgba(49, 47, 47, 0.445);
+                        }
+
+                        span{
+                            height: 80px;
+                            width: 80px;
+                            background-color: orangered;
+                            border-radius: 50%;
+                            box-shadow: rgb(224, 92, 44) 2px 2px;
+                            
+                           
+
+                            i{
+                                
+                                text-align: center;
+                                display: block;
+                                margin: 24px auto;
+                            }
+                        }
+                            small{
+
+                            }
+                        }}}}}}
+
+
+.car-dekho-homepage-3{
+    margin: 20px 52px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #8080804f;
+    @media only screen and (max-width: 650px){
+        
+        margin: 20px auto;
+        padding: 0 10px;
+        
+    }
+    
+    
+         
+        .car-dekho-homepage-3-text{
+            width: 100%;
+            border-bottom: 1px solid #8080804f;
+            margin-bottom: 40px;
+            
+
+            h2{
+                padding-bottom: 10px;
+            }
+        }
+    
+    
+      
+        .car-dekho-homepage-3-box{
+            display: flex;
+            margin: 10px 0px;
+            align-content: center;
+            align-items: center;
+            width: 100%;
+            
+            
+            
+            ul{
+
+                display: flex;
+                margin: 0px auto;
+                justify-content: center;
+                min-width: 317px;
+
+                li{
+        
+                    border: 1px solid #8080804f;
+                    margin-right: 10px;
+                    margin-bottom: 15px;
+                    height: 150px;
+                    width: 200px;
+                    text-align: center;
+                    
+                    &:hover{
+                        transform: scale(1.1);
+                        transition: 1s;
+                    }
+
+
+                    img{
+                        width: 100%;
+                        height: 100%;
+
+
+                    }
+                    
+                  
+                }
+
+            }
+
+            .btn_for_view_other_brand{
+                margin-top: 10px;
+
+            
+            a{
+                cursor: pointer;
+                font-weight: 600;
+                color: #4624e0ab;
+                transition: 1s;
+                transition-property: all;
+                
+
+                &:hover{
+                    font-size: 15px;
+                    
+                    border-radius: 8px;
+                    color: white;
+                    padding: 10px;
+                    background-color: rgba(3, 3, 3, 0.651);
+                    
+                    
+                }
+
+                }
+
+            }
+
+  
+    }
+}
+
+
+
+.car-dekho-homepage-4{
+    margin: 20px 52px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #8080804f;
+
+    @media only screen and (max-width: 650px){
+        
+        margin: 20px auto;
+        padding: 0 10px;
+        
+    }
+
+    .car-dekho-homepage-4-text{
+        width: 100%;
+        border-bottom: 1px solid #8080804f;
+        margin-bottom: 40px;
+        
+
+        h2{
+            padding-bottom: 10px;
+        }
+    }
+
+    .car-dekho-homepage-4-box{
+       
+        margin: 10px 0px;
+        align-content: center;
+        align-items: center;
+        
+        
+        
+        ul{
+
+            
+            margin: 0px auto;
+            margin-bottom: 10px;
+           
+            display: flex;
+            justify-content: center;
+            
+
+            li{
+                border-bottom: 1px solid #8080804f;
+                height: 289px;
+                width: 317px;
+                display: inline-flex;
+                justify-content: center;
+                padding: 10px;
+                margin: 0 auto;
+
+
+                &:hover{
+                    border: 1px solid  #8080804f;
+                    
+                }
+                
+
+                .car-dekho-homepage-4-box-right{
+                    width: 50%;
+                    height: auto;
+
+                   
+                    img{
+                            width: 100%;
+                            height: 150px;
+                    }
+
+                    p{
+                        padding: 0px 15px;
+                    }
+
+                }
+
+                
+                .car-dekho-homepage-4-box-left{
+                     width: 50%;
+                   
+                    
+                    img{
+                            width: 100%;
+                            height: 150px;
+                    }
+                    p{
+                        text-align: end;
+                        padding: 0px 15px;
+                    }
+
+                
+
+                .tag{
+                    width: 36px;
+                    height: 36px;
+                    background: #24272c;
+                    border: 1px solid rgba(36,39,44,.15);
+                    font-weight: 500;
+                    text-align: center;
+                    line-height: 36px;
+                    color: #fff;
+                    -webkit-border-radius: 50%;
+                    border-radius: 50%;
+                    position: relative;
+                    right: -18px;
+                    top: 50%;
+                    margin-top: -18px;
+                    z-index: 1;
+                }
+            }
+                span{
+                    display:flex;
+                    border: 1px solid orangered;
+                    align-items: center;
+                    justify-content: center;
+                    height: 43px;
+                    width: 80%;
+                    
+
+                }
+                    
+
+            }
+
+             }
+     }
+
+            .view-all-car-camparison{
+                width: 100%;    
+                border: 1px solid  #8080804f;
+                padding: 20px 20px;
+        
+               a {
+                cursor: pointer;
+                font-weight: 600;
+                color: #4624e0ab;
+                transition: 1s;
+                transition-property: all;
+                
+        
+                &:hover{
+                    font-size: 15px;
+                    border-radius: 8px;
+                    color: white;
+                    padding: 10px;
+                    background-color: rgba(3, 3, 3, 0.651);
+                }  
+}            }
+}
+
+
+.select-city{
+    margin: 20px 52px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #8080804f;
+    display: flex;
+    float: left;
+    width: 100%;
+    @media only screen and (max-width: 650px){
+        
+        margin: 20px auto;
+        padding: 0 10px;
+        
+    }
+   
+
+    .select-city-text{
+        position: relative;
+        border-bottom: 1px solid #8080804f;
+        width: 100%;
+
+        h2{
+            padding-bottom: 10px;
+        }
+    }
+
+    .select-city-box{
+        padding: 10px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
+
+        .select-city-by-image{
+            margin-bottom: 10px;
+            height: auto;
+            width:100%;
+            display: flex;
+            margin: 0 auto;
+            
+            
+
+
+        ul{
+            
+            height: auto;
+            max-width: 950px;
+            min-width: 317px;
+            margin: 0px auto;
+            display: flex;
+            justify-content: center;
+            
+
+            li{
+                border-bottom: 1px solid #8080804f;
+                height: 140px;
+                width: 140px;
+                display: inline-flex;
+                flex-direction: column;
+               
+                align-items: center;
+                margin: 0 5px;
+                margin-bottom: 15px;
+                flex-wrap: wrap;
+                box-sizing: border-box;
+
+
+                &:hover{
+                    border: 1px solid  #8080804f;
+                    
+                }
+
+                img{
+                    height: 80px;
+                    width: 100%;
+                    box-sizing: border-box;
+                }
+                    small{
+                        color: rgba(0, 0, 0, 0.411);
+                        padding: 5px 0;
+                    }
+                    a{
+                        color: black;
+                    }    
+                }
+            }
+        
+    
+    
+.enter-city{
+   position: relative;
+   margin: 0 auto;
+    ul{
+    width:300px;
+    height: auto;
+           
+ .select_dropdown_city{
+    position: relative;
+        
+        li{
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            width: 100%;
+            height: 295px;
+
+            .btn_box{
+                height: 73px;
+                width: 100%;
+            .btn{
+                margin: 10px;
+                border: 1px solid black;
+                border-radius: 22%;
+                transition-property: border;
+                transition: 3s;
+                &:hover{
+                    border-radius: 0px;
+                    border: 1px solid black;
+                }
+                
+             
+                select{
+                    padding: 10px 60px;
+                    outline: none;
+                    border: none;
+                    
+
+
+                    option{
+                        border:1px solid #8080804f; ;
+                    }
+                }
+             }
+             }
+         }
+         }
+        }
+        }
+    }
+     
+    }
+}
+
+
+.news-box{
+    margin: 20px 52px;
+    padding: 20px;
+    width: 100%;
+    height: auto;
+    border: 1px solid #8080804f;
+    display: flex;
+    flex-direction: row;
+   
+    @media only screen and (max-width: 650px){
+        margin: 20px auto;
+        padding: 0 10px;
+        
+    }
+    
+    .news-box-container{
+        margin-bottom: 10px;
+        height: auto;
+        width:100%;
+        display: flex;
+        flex-direction: row;
+        
+
+        .news-box-contain{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+     
+            
+
+        ul{
+        width: 47%;
+        min-width: 317px;
+        display: flex;
+        flex-direction: row;
+        margin:0 auto;
+
+       
+             li{
+            display: flex;
+            position: relative;
+            width: 300px;
+
+            img{
+                position: relative;
+            }
+            }
+
+            
+
+            }
+
+        }   
+    }
+    #news-box-text{
+        display: flex;
+        position: relative;
+        width: 300px;
+        margin: 21px 0px 21px 0px;
+        h3{
+            font-size: medium;
+            margin-bottom: 20px;
+            a{
+                color: black;
+                font-weight: 400;
+                font-size: 15px;
+               
+            }                
+        }
+        p{
+            text-overflow: ellipsis;
+            overflow: hidden;
+            white-space: nowrap;
+            color: rgba(36,39,44,.5);
+            padding-bottom:18px;
+        }
+
+        .authorThumbName {
+            border-radius: 100%;
+            width: 36px;
+            height: 36px;
+            background: #fafafa;
+            float: left;
+            overflow: hidden;
+            padding-top: 8px;
+            text-align: center;
+            font-size: 18px;
+            vertical-align: middle;
+            text-transform: uppercase;
+
+        }
+
+        .authorSummary{
+            font-size: 14px;
+            padding: 0px 5px;
+        }
+
+     .dotlist{
+        color: rgba(36,39,44,.5);
+        font-size: 12px;
+        
+     }
+    }
+    
+    
+    .view-all-car-camparison{
+        width: 100%;    
+        padding: 20px 20px;
+    
+       a {
+        cursor: pointer;
+        font-weight: 600;
+        color: #4624e0ab;
+        transition: 1s;
+        transition-property: all;
+        
+    
+        &:hover{
+            font-size: 15px;
+            border-radius: 8px;
+            color: white;
+            padding: 10px;
+            background-color: rgba(3, 3, 3, 0.651);
+        } 
+    
+             }
+          }
+
+}
+    
+
+.footer_Start{
+    margin: 10px 0px;
+    padding: 0;
+    width: 100%;
+    border-top: 1px solid #8080804f;
+    display: flex;
+    
+    @media only screen and (max-width: 650px){
+        margin: 20px auto;
+        padding: 0 10px;
+        
+    }
+    
+
+
+    .footer_Start-box{
+        margin: 10px 0px;
+        width: 100%;
+        display: flex;
+        margin: 20px 52px;
+        padding: 20px;
+
+    ul{
+        margin-bottom: 10px;
+        height: auto;
+        width:100%;
+        margin: 0px auto;
+        display: flex;
+        min-width: 317px;
+        
+        
+
+        .title{
+            display: flex;
+            flex-direction: row;
+            margin: 0 auto;
+            height: 80px;
+            width: 200px;
+           
+
+            i{
+            position: relative;
+            
+            }
+            
+            h2{
+                position: relative;
+            }
+
+                p{
+                    color: rgba(36,39,44,.5);
+                }
+            }
+        }
+    }
+
+}
+
+
+.footer_end{
+    margin: 10px 0px;
+    padding: 0;
+    width: 100%;
+    border: 1px solid #8080804f;
+    display: flex;
+    float: left;
+
+    .footer_end_container-box{
+        margin: 10px 0px;
+        display: flex;
+        margin: 20px 52px;
+        padding: 20px;
+
+        @media only screen and (max-width: 650px){
+            margin: 20px auto;
+            padding: 0 10px;
+            
+        }
+
+        ul{
+            margin-bottom: 10px;
+            height: auto;
+            width:100%;
+            margin: 0px auto;
+            display: flex;
+            flex-direction: row;
+
+            li{
+            display: inline-flex;
+            flex-direction: column;
+            height: 174px;
+            width: 221px;
+            flex-wrap: wrap;
+            box-sizing: border-box;
+            p{
+                
+                font-size: 13px;
+                text-transform: uppercase;
+                padding-bottom: 10px;
+
+                
+            }
+                
+                small{
+                    padding-bottom: 10px;
+                    color: rgba(36,39,44,.5);
+                    cursor: pointer;
+                    &:hover{
+                        color: blue;
+                        font-size: 15px;
+                        
+                    }
+                }
+            }
+        
+        
+               
+                #app_download_link{
+                    width: 300px;
+                    height: 150px;
+                    display: inline-flex;
+                    flex-direction: column;
+                    
+                    p{
+                
+                        font-size: 13px;
+                        text-transform: uppercase;
+                        padding-bottom: 10px;
+                    }
+
+                    img{
+                        width: 100%;
+                        height: auto;
+                        padding-bottom: 10px;
+                        cursor: pointer;}
+
+                    small{
+                        position: relative;
+                    }
+
+                
+
+
+                    .fa_fa_icons{
+                        color: rgba(36,39,44,.5);
+                        padding: 10px 0px;
+                        
+                    
+                    i{
+                        margin-right:10px;
+                        font-size: 19px;
+                        transition: 1s;
+                        cursor: pointer;
+
+                        &:hover{
+                            color: green;
+                            font-size: 24px;
+                        }
+                    }
+
+                
+                }
+            }
+
+        }
+
+    
+
+    }
+}

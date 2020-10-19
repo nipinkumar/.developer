@@ -1,0 +1,119 @@
+.header {
+  background-color: #785ef0;
+}
+
+.header .form {
+  background-image: -webkit-gradient(linear, left top, right top, from(#8e78ec), to(rgba(43, 118, 204, 0.233)));
+  background-image: linear-gradient(to right, #8e78ec, rgba(43, 118, 204, 0.233));
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.header .form .form-check-input {
+  height: 18px;
+  width: 17px;
+  background-color: red;
+}
+
+#nextbtn {
+  border-radius: 10px;
+}
+
+.frequently {
+  border-bottom: 1px solid rgba(158, 154, 154, 0.185);
+  font-size: 60px;
+  background: -webkit-linear-gradient(#eee, #69b181);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-drive {
+  background: -webkit-linear-gradient(#eee, #eb6212);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#frmstyle {
+  background-color: rgba(158, 154, 154, 0.185);
+  font-size: 17px;
+}
+
+.card {
+  border: none;
+}
+
+.card .card-header {
+  border: none;
+}
+
+.card-body {
+  padding-left: 53px;
+  padding-top: 0;
+  padding-right: 100px;
+}
+
+.btn.focus, .btn:focus {
+  outline: 0;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.body-text {
+  background-image: -webkit-gradient(linear, left top, right top, from(rgba(46, 40, 40, 0.158)), to(rgba(233, 233, 178, 0.349)));
+  background-image: linear-gradient(to right, rgba(46, 40, 40, 0.158), rgba(233, 233, 178, 0.349));
+  margin: 0 auto;
+  font-weight: bold;
+  width: 80%;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.maincontent {
+  background-image: url("../assets/image.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding: 50px 0;
+  margin-bottom: 50px;
+}
+
+.btn-collapse.collapsed .remove {
+  display: none;
+}
+
+.btn-collapse.collapsed .add {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.btn-collapse .remove {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.btn-collapse .add {
+  display: none;
+}
+
+.btn-collapse.collapsed .arrow-down {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.btn-collapse.collapsed .arrow-up {
+  display: none;
+}
+
+.btn-collapse .arrow-down {
+  display: none;
+}
+
+.btn-collapse .arrow-up {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */

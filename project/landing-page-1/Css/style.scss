@@ -1,0 +1,119 @@
+
+.header{
+    background-color: #785ef0;
+
+        .form{
+            background-image: linear-gradient(to right, #8e78ec , rgba(43, 118, 204, 0.233));
+            font-weight: bold;
+            border-radius: 10px;
+
+            .form-check-input{
+                height: 18px;
+                width: 17px;
+                background-color: red;
+            }
+        }
+
+}
+
+#nextbtn {
+    border-radius: 10px;
+   
+}
+
+
+
+.frequently{
+    border-bottom:1px solid rgba(158, 154, 154, 0.185);
+    font-size: 60px;
+    background: -webkit-linear-gradient(#eee, rgb(105, 177, 129));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-drive{
+     background: -webkit-linear-gradient(#eee, rgb(235, 98, 18));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+#frmstyle{
+    background-color: rgba(158, 154, 154, 0.185);
+    font-size: 17px;
+}
+
+.card{
+   border: none;
+
+.card-header{
+    border: none;
+
+}
+}
+.card-body{
+    padding-left: 53px;
+    padding-top: 0;
+    padding-right: 100px;
+}
+
+
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+        }
+
+
+.body-text{
+        
+    
+       
+        background-image: linear-gradient(to right, rgba(46, 40, 40, 0.158) , rgba(233, 233, 178, 0.349));
+        margin: 0 auto;
+        font-weight: bold;
+        width: 80%;
+        padding: 20px;border-radius: 8px;
+      
+        
+      }
+
+
+
+      .maincontent{
+        background-image: url("../assets/image.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding: 50px 0;
+
+        margin-bottom: 50px;
+         
+     }
+     
+
+
+    
+     .btn-collapse.collapsed .remove{
+        display: none;
+    }
+    
+    
+    .btn-collapse.collapsed .add{
+        display: flex;
+    }
+    
+    .btn-collapse .remove{
+        display: flex;
+    }
+    
+    
+    .btn-collapse .add{
+        display: none;
+    }
+    
+
+    .btn-collapse.collapsed .arrow-down { display: flex;}
+    .btn-collapse.collapsed .arrow-up{ display: none;}
+    
+    .btn-collapse .arrow-down{display: none;}
+    .btn-collapse .arrow-up{display: flex;}
