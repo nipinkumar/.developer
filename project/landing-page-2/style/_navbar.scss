@@ -1,0 +1,16 @@
+
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+
+                &:hover{
+                color: white;
+                &:focus {
+                    color: rgb(212, 15, 15);}
+                }}
+
+.navbar-light .navbar-toggler-icon{
+    background-color: rgba(255, 255, 255, 0.418);
+    border-radius: 5px;
+}

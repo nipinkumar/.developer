@@ -1,0 +1,9 @@
+.textbox ul li:before {
+  content: '\f00c';
+  font: 16px/26px FontAwesome;
+  color: #60b741;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+/*# sourceMappingURL=services.css.map */

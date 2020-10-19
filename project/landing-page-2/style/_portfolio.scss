@@ -1,0 +1,112 @@
+
+
+.portfolio{
+    background-image: url("../assets/image_3.jpg");
+    background-size: 100% 100%;
+    
+    *a, h2,h4,p,span{
+        color: white;
+    }
+
+
+}
+
+.portfolio_about_title{
+        
+        color: #303030;
+        text-transform: uppercase;
+        padding-bottom: 10px;
+        line-height: 2;       
+        padding: 40px 100px;
+    
+        .title{
+            font-size: 35px;
+            text-align: center;
+            display: block;
+            padding: 0px;
+            font-family: "Helvetica Neue";
+        }
+        span{
+            font-size: 20px;
+            text-align: center;
+            display: block;
+            padding: 0px;
+            font-family: monospace;
+        }
+    }
+
+.blog-box{
+        
+        .blog_row{
+            
+            .blog_col{
+                
+
+                .b_image{
+                   img{
+                    background-color: #ccc;
+                   }
+                }
+                
+            .blog_text{
+                    padding-left: 10px;
+                    display: table;
+                    
+
+
+                h4{
+                    font-size: 20px;
+                    color: #0669b2;
+                    padding-bottom: 5px;
+                    font-family: "Helvetica Neue";
+                    
+                }
+                    .b_author{
+                        font-family: Arial;
+                        font-weight: bold;
+                        font-size: 14px;
+                        color: #8e8e8e;
+                                            
+                    }
+                    p{
+                        font-family: Arial;
+                        line-height: 20px;
+                        color: #000; 
+                        font-size:14px ;     
+                    }
+                }
+            }
+        }
+    }
+
+.client{
+    .container{
+        .row{
+            
+            .client-text{
+                
+                
+                h2{
+                    color: hotpink;
+                    font-family: monospace;
+                    font-size: 40px;
+                }
+                    span{
+                        font-family: monospace;
+                        font-size: 20px;
+
+                    }
+                }
+            }
+
+            .clients_row{
+                .col-md-2{
+                    img{
+                        background-color: white;
+                        height: 64px; 
+                        width: 141px;
+                    }
+                }
+            }
+        }
+    }
