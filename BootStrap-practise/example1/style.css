@@ -1,0 +1,23 @@
+.container {
+  border: 2px solid black; }
+
+.center {
+  background-color: orangered;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.center h2 {
+  text-align: center; }
+
+.row {
+  border: 5px solid blue; }
+
+.green {
+  background: green; }
+
+.orange {
+  background-color: orangered; }
+
+.pink {
+  background-color: pink; }

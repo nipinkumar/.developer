@@ -1,0 +1,123 @@
+
+.banner{
+
+}
+.container{
+
+}
+
+.row{
+
+}
+
+.col-md-4{
+   
+    height: 410px;
+}
+
+#hp{
+    background-image: url("hp.jpg" );
+    background-size: 100% ;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+#img1{
+    background-image: url("http://img1.joyreactor.com/pics/post/funny-pictures-auto-574987.jpeg");
+    background-position: top;
+    background-size: 466px ;
+    position: relative;
+    top: 19px;
+    right: 10px;
+    height: 261px; 
+    width: 466px;
+    border-radius: 2px;
+    transition: 10s;
+   
+    
+}
+#img1:hover{
+    background-position: bottom;
+}
+
+#mac{
+    background-image: url("mac.jpg");
+    background-size:100% ;
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+#img2{
+    background-image: url("http://img0.joyreactor.com/pics/post/funny-pictures-auto-574990.jpeg");
+    background-position: top;
+    background-size: 250px ;
+    position: relative;
+    top: 125px;
+    left: 59px;
+    height: 146px; 
+    width: 232px;
+    border-radius: 2px;
+    transition: 8s ease-out;
+}
+#img2:hover{
+    background-position: bottom;
+}
+
+
+@media only screen and (max-width: 1200px) {
+   
+    #img2 {
+        top: 138px;
+        left: 48px;
+        height: 123px;
+        width: 194px;
+        background-size: 194px;
+    
+    }
+
+  }
+
+
+
+#iphone{
+    background-image: url("apple.jpg");
+    background-size:100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: ;
+}
+
+#img3{
+    background-image:url("http://img1.joyreactor.com/pics/post/funny-pictures-oc-comic-makers-auto-574971.jpeg") ;
+    background-position: top;
+    background-size: 98px;
+   
+    position: relative;
+    top: 101px;
+    left: 106px;
+    border-radius: 11px;
+    overflow: hidden;
+    height: 211px; 
+    width: 98px;
+    transition: 3s ease-out;
+
+    
+}
+
+#img3:hover{
+    background-position: bottom;
+}
+
+
+@media only screen and (max-width: 1200px) {
+   
+    #img3 {
+        top: 118px;
+        left: 87px;
+        height: 176px; 
+        width: 84px;
+        background-size: 84px;
+    }
+
+  }

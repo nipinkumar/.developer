@@ -1,0 +1,29 @@
+@import 'header';
+@import 'banner';
+@import 'car-dekho-homepage';
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif, arial;
+    list-style: none;
+    text-decoration: none;
+    flex-wrap: wrap;
+    font-weight: 400;
+    
+
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 317px;
+    
+}

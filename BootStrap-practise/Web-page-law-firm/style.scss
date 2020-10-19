@@ -1,0 +1,105 @@
+
+
+#brand_img{
+    height: 66px;
+    max-width: 200px;
+    img{
+        height: auto;
+        width: 100%;
+    }
+}
+
+
+.navbar-light {
+    .navbar-toggler-icon {
+        background-image: none;
+    }
+}
+
+
+
+#dropdown-menu{
+    background-color:#4e4747e6;
+    
+    .dropdown-item{
+        color: #6d757d ;
+        font-size: small;
+        
+    }
+}
+
+
+.main_body_1{
+    background-image: url("https://haymanwoodward.law/wp-content/uploads/2019/07/banner_topo.jpg");
+    min-height: 580px;
+    .container{
+        max-width: 700px;
+        padding: 0 15px;
+        .first{
+            border-bottom: 1px solid #c4af6f;
+            
+        }
+    p{
+        color: #c4af6f;
+        text-transform: uppercase;
+        padding: 0;margin: 0;
+
+
+    }
+}
+}
+#main_body_1_btn{
+    border-radius: 15px;
+}
+
+#main_body_part1{
+    max-width: 500px;
+    float: right;
+}
+
+#carousel{
+        padding: 0;
+        margin: 0;
+        height: 580px;
+        width: 100%;
+
+    #carouselExampleCaptions{
+    
+        
+        
+        img{
+            height: 580px;
+            width: 100%;
+            margin: 0;
+        }
+    }
+}
+
+
+.navbar-toggler{
+    padding-left: 20px;
+    padding-right: 67px;
+    margin: 5px;
+    border: none;
+}
+
+
+@media screen and (max-width: 574px) {
+    
+    .navbar{
+        padding: 0;
+    }
+    
+    #fa-home {
+      display: none;;
+    }
+  }
+
+  
+@media screen and (max-width: 773px) {
+    
+    .navbar{
+        padding: 0;
+    }
+}
+  

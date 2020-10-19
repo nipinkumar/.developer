@@ -1,0 +1,72 @@
+
+
+header{
+
+
+    .navbar {
+        .container{
+            strong{
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+
+.jumbotron{
+    background-color: white;
+    .container{
+        max-width: 40rem;
+        margin: 0 auto;
+        
+       
+    }
+}
+
+
+
+
+.ablum {
+.container{
+   padding: 0;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 20px;
+
+.col-md-4{
+   
+
+    .box{
+        height: auto;
+        border-radius: 5px;   
+        
+        
+        .text{
+            background-color: gray;
+            height: 198px;
+            align-items: center;
+            display: flex;
+            justify-content:center ;
+            
+            
+            h3{
+                color: white;
+            }
+        }
+    }
+
+    
+    .card-text{ 
+        
+        .button{
+            
+        
+        a{
+            
+        }
+    }
+    }
+
+}
+}
+}

@@ -1,0 +1,269 @@
+*{
+    
+}
+
+body{
+    margin:0px;
+    padding: 0px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #6c757d;
+    padding: 0px;
+    display: flex;
+    box-sizing: border-box;
+    align-content: center;
+    
+    
+}
+
+    
+    
+
+header ul{
+    
+    list-style:none;
+    text-decoration: none;
+    margin: 0px;
+}
+header ul a{
+    text-decoration: none;
+    color: azure;
+    padding: 0px;
+}
+header h2{
+    margin: 0%;
+    padding: 0;
+    
+}
+
+
+nav{
+    margin: 0px;
+    padding: 0;
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    padding: 0;
+    align-items: center;
+    margin-left: 23px;
+    
+}
+
+nav ul li{
+    padding:  0px;
+    margin: 0px;
+    
+}
+
+nav li:hover{
+    background-color:white;
+    color: gray;
+}
+
+nav ul li a{
+    color: aqua;
+    padding: 10px;
+    display: block;
+
+}
+nav li a:hover{
+    color:rgb(95, 90, 90);
+}
+
+.title{
+    margin: 0% auto;
+    display: flex;
+    align-items: center;
+    
+}
+
+.social-icon{
+    display: block;
+    align-items: center;
+
+}
+
+.social-icon ul{
+    display: flex;
+    padding: 0;
+}
+.social-icon ul li{
+    margin: 10px 17px;
+}
+
+
+/*______Container________*/
+
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    max-width: 100%;
+
+}
+
+.container h1{
+    margin: 0px auto;
+    text-transform: uppercase;
+    display: none;
+    color: red;
+
+}
+.container-all-box{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px auto;
+    position: relative;
+    justify-content: center;
+}
+
+
+
+.box{
+    margin: 17px;
+   
+    width: 348px;
+    border-radius: 1px;
+    
+    
+}
+.contain1{
+    width: 100%;
+    height: 225px;
+    background-color:rgb(77, 76, 76);
+    border-radius: 6px 6px 0px 0px;
+    cursor: pointer;
+    background-image: url("https://cdn.pixabay.com/photo/2016/02/19/10/00/laptop-1209008__340.jpg");
+    background-size: cover;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+   
+    
+
+.contain1 h2{
+    margin: auto 0px;
+    text-align: center;
+    padding: 27% 0px;
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+
+}
+.contain2{
+    padding: 20px;
+    border: 1px solid rgb(236, 232, 232);
+    box-sizing: border-box;
+    border-radius: 0% 0px 6px 6px;
+    
+}
+.contain2 p{
+    margin: 0px;
+    padding-bottom: 15px;
+    line-height: 1.5;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.bottom{
+    display:inline-flex ;
+    
+}
+.btn{
+    justify-items: end;
+    
+}
+
+.btn button{
+    padding:4px 8px ;
+    line-height: 1.5;
+    
+    color: #6c757d;
+  
+    
+    
+
+}
+.btn small{
+    display: inline-flex;
+    justify-content: flex-end;
+    padding-left: 50%;
+
+}
+
+
+footer{
+    background-color: #6c757d;
+    width: 100%;
+    padding: 0;
+    
+    
+}
+.footer-container{
+    margin: 0px;
+    padding: 0;
+}
+
+.footer-container ul{
+    display: flex;
+    margin: 7px 0px;
+    flex-wrap: wrap;
+    margin-left: 8%;
+
+}
+
+.footer-container ul li{
+    list-style: none;
+    margin: 8px 17px;
+}
+.footer-container ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.copyright{
+    margin-left: 10px;
+    margin-top: -10px;
+
+}
+@media only screen and (max-width:670px)
+{
+    header{
+        flex-direction: column;
+    }
+    
+    nav{
+        margin: 0px auto;
+    }
+
+    .social-icon{
+        margin: 0px auto;
+
+    }
+
+    nav ul{
+
+    }
+    .title{
+        order: -1;
+    }
+
+    .footer-container ul{
+        margin: 0px auto;
+    }
+}
+
+@media only screen and (max-width:780px)
+{
+    .footer-container li{
+        margin: 0px auto;
+    }
+}
