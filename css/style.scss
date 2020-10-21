@@ -156,7 +156,7 @@ header {
   }
 
   .sk-items {
-    padding-top: 50px;
+  
   }
   .card {
     background-color: transparent;
@@ -213,6 +213,10 @@ header {
 //----Services----///
 .services {
   background-image: linear-gradient(#ddefee, #c650e434);
+  
+
+ 
+   
 
   .card {
     background-color: transparent;
@@ -241,4 +245,36 @@ footer {
   background-image: linear-gradient(gray, #343a40);
 
   
+}
+
+@media only screen and (max-width:360px){
+
+.service-heading, .contact-heading {
+  h2{
+    font-size: 50px;
+    
+  }
+  h1{
+    font-size: 30px;
+    margin: 0px 10px;
+  }
+}
+  .services_box{
+    margin-bottom: 30px;
+  }
+
+  .contact-info{
+    h3{
+      font-size: 30px;
+      padding-left: 13px;
+      padding-top: 5px;
+    }
+    ul{
+      padding-left: 30px;
+      padding-bottom: 20px;
+    }
+
+
+}
+
 }
