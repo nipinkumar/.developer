@@ -242,6 +242,7 @@ header {
   border: none;
   border: 2px solid #8888883a;
   display: block;
+  margin-bottom: 10px;
   transition: all 0.4s ease-in-out;
 }
 .services .card:hover {
@@ -251,6 +252,9 @@ header {
 .services .fa {
   font-size: 45px;
   margin: 0 5px;
+}
+.services h3 {
+  font-size: 20px;
 }
 
 .contact {
