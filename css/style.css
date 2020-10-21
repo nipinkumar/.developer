@@ -261,7 +261,7 @@ footer {
   background-image: linear-gradient(gray, #343a40);
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 420px) {
   .service-heading h2, .contact-heading h2 {
     font-size: 50px;
   }
