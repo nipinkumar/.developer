@@ -95,11 +95,14 @@ header {
   background-image: url("../assets/bg-banner.jpg");
   background-size: 100% 100%;
 }
-@media only screen and (max-width: 572px) {
+@media only screen and (max-width: 576px) {
   .banner .icon-bar {
     width: 100%;
     display: inline-flex;
     justify-content: space-between;
+  }
+  .banner .slider-content {
+    text-align: center;
   }
 }
 .banner .slider-content h1 {
@@ -119,6 +122,11 @@ header {
   font-weight: bold;
 }
 
+@media only screen and (max-width: 355px) {
+  .d-btn a {
+    margin-bottom: 10px;
+  }
+}
 .about {
   max-width: 100%;
   background-color: #36b7b3;
@@ -210,14 +218,14 @@ header {
     height: 200px;
   }
 }
-@media only screen and (max-width: 988px) {
+@media only screen and (max-width: 989px) {
   .skills .responsive {
     height: 145px;
   }
 }
-@media only screen and (max-width: 765px) {
+@media only screen and (max-width: 767px) {
   .skills .responsive {
-    height: 100px;
+    height: 235px;
   }
 }
 @media only screen and (max-width: 572px) {

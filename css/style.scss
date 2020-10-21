@@ -49,14 +49,18 @@ header {
   background-image: url("../assets/bg-banner.jpg");
   background-size: 100% 100%;
 
-  @media only screen and (max-width: 572px) {
+  @media only screen and (max-width: 576px) {
     .icon-bar {
       width: 100%;
       display: inline-flex;
       justify-content: space-between;
     }
+    .slider-content{
+      text-align: center;     
+    }
   }
 
+ 
   .slider-content {
     h1 {
       font-size: 90px;
@@ -79,6 +83,16 @@ header {
     }
   }
 }
+
+@media only screen and (max-width: 355px) {
+  .d-btn{
+    a{
+      margin-bottom: 10px;
+    }
+
+  }
+}
+
 
 //--------about------------//
 .about {
@@ -190,15 +204,15 @@ header {
     }
   }
 
-  @media only screen and (max-width: 988px) {
+  @media only screen and (max-width: 989px) {
     .responsive {
       height: 145px;
     }
   }
 
-  @media only screen and (max-width: 765px) {
+  @media only screen and (max-width: 767px) {
     .responsive {
-      height: 100px;
+      height: 235px;
     }
   }
 
